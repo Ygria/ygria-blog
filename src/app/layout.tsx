@@ -46,11 +46,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.5/index.min.css" />
         <style>
           {`
             body {
-              font-family: "LXGW WenKai Lite", sans-serif;
+            font-family: "Inter";
             }
           `}
         </style>

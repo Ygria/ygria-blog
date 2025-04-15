@@ -142,10 +142,11 @@ for (var i=0; i<100; i++) {
 ## Table
 
 | Table Header 1 | Table Header 2 | Table Header 3 |
-| - | - | - |
-| Division 1 | Division 2 | Division 3 |
-| Division 1 | Division 2 | Division 3 |
-| Division 1 | Division 2 | Division 3 |
+| -------------- | -------------- | -------------- |
+| Division 1     | Division 2     | Division 3     |
+| Division 1     | Division 2     | Division 3     |
+| Division 1     | Division 2     | Division 3     |
+|                |                |                |
 
 # 参考链接
 
