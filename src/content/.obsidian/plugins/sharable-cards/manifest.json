@@ -1,0 +1,11 @@
+{
+    "id": "obsidian-card-renderer",
+    "name": "Card Renderer",
+    "version": "0.1.0",
+    "minAppVersion": "0.12.0",
+    "description": "Render Markdown files into customizable cards and export them as images.",
+    "author": "Your Name",
+    "authorUrl": "https://yourwebsite.com",
+    "isDesktopOnly": false
+  }
+  
