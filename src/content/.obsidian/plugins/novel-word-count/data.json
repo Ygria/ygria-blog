@@ -193,25 +193,25 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 42,
+      "wordCount": 472,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0.14,
-      "characterCount": 45,
-      "nonWhitespaceCharacterCount": 44,
-      "readingTimeInMinutes": 0.084,
+      "pageCount": 1.5733333333333333,
+      "characterCount": 876,
+      "nonWhitespaceCharacterCount": 815,
+      "readingTimeInMinutes": 0.9510943396226416,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744822224000,
-      "modifiedDate": 1744822481000,
-      "sizeInBytes": 305,
+      "modifiedDate": 1744852974000,
+      "sizeInBytes": 2135,
       "frontmatter": {
         "date": "2025-04-17",
         "tags": [
           "播客"
         ],
-        "description": "111",
+        "description": "谨防老人上当，直播销售保健品套路",
         "title": "谨防老人上当，直播销售保健品套路",
         "keywords": [
           "健康"

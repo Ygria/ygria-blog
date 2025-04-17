@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "08 规划与执行/公众号写作存档/08 急！恩师和我老丈人干起来了，我该怎么办？从晚唐大诗人李商隐的人生遭际看牛李党争.md",
+                "file": "blog/health-care-live.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "08 急！恩师和我老丈人干起来了，我该怎么办？从晚唐大诗人李商隐的人生遭际看牛李党争 的大纲"
+              "title": "health-care-live 的大纲"
             }
           },
           {
@@ -237,11 +237,11 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 452.5
+    "width": 236.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -266,10 +266,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "2a6d9667c4e7736b",
+  "active": "13be3b27cd778e58",
   "lastOpenFiles": [
-    "blog/2025-4-W15.md",
+    "().md",
     "blog/health-care-live.md",
+    "blog/2025-4-W15.md",
     "blog/保健品销售.md",
     "Templates/Front Matter.md",
     "Templates/Current Thoughts.md",
