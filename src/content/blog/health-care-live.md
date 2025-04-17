@@ -154,7 +154,7 @@ updated: 2025-04-17
 ![914082f139d247623b36916b6ce8ef7](https://images.ygria.site/2025/04/dbfa303d8326838e6a7f473b37ca95c7.webp)
 ## 医药卫生学部院士张伯礼论文引争议，用患者做实验导致肾损伤偷偷撤稿
 
-![207c9aa11a81d1fe0cddffee511b56d](https://images.ygria.site/2025/04/0fe9dfcbe7f5b60a36870416593c7354.webp)
+![207c9aa11a81d1fe0cddffee511b56d|700x24](https://images.ygria.site/2025/04/0fe9dfcbe7f5b60a36870416593c7354.webp)
 
 
 
