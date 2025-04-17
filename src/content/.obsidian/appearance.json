@@ -1,4 +1,5 @@
 {
   "textFontFamily": "Arial Black",
-  "translucency": true
+  "translucency": true,
+  "theme": "system"
 }

@@ -37,9 +37,9 @@ export const config = {
     buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
-    repo: "guangzhengli/hugo-ladder-exampleSite",
-    repoId: "R_kgDOHyVOjg",
-    categoryId: "DIC_kwDOHyVOjs4CQsH7",
+    repo: "Ygria/ygria-blog",
+    repoId: "R_kgDOOZRnsg",
+    categoryId: "DIC_kwDOOZRnss4CpL4W",
   },
   navigation: {
     main: [
