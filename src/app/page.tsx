@@ -2,6 +2,7 @@ import { allBlogs } from "content-collections";
 import Link from "next/link";
 import count from 'word-count'
 import { config } from "@/lib/config";
+import Script from 'next/script'
 
 export default function Home() {
   const blogs = allBlogs
@@ -10,6 +11,12 @@ export default function Home() {
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
+      {/* Umami统计 */}
+        <Script
+        src="https://cloud.umami.is/script.js"
+        data-website-id="bb9fa028-ea1a-4694-a56c-fbabf6b4529e"
+        strategy="lazyOnload"
+      />
       {/* 个人介绍部分 */}
       <div className="mb-16 space-y-4">
         <h1 className="text-4xl font-bold">{config.site.title}</h1>
@@ -17,13 +24,13 @@ export default function Home() {
         
         {/* 社交链接 */}
         <div className="flex space-x-2 text-gray-600">
-          <Link href={config.social.buyMeACoffee} className="underline underline-offset-4">赞赏</Link>
+          <Link href={config.social.techBlog} className="underline underline-offset-4">技术博客</Link>
           <span>·</span>
-          <Link href={config.social.x} className="underline underline-offset-4">X</Link>
-          <span>·</span>
+          <Link href={config.social.digitalGarden} className="underline underline-offset-4">数字花园</Link>
+          {/* <span>·</span>
           <Link href={config.social.xiaohongshu} className="underline underline-offset-4">小红书</Link>
           <span>·</span>
-          <Link href={config.social.wechat} className="underline underline-offset-4">微信公众号</Link>
+          <Link href={config.social.wechat} className="underline underline-offset-4">微信公众号</Link> */}
         </div>
       </div>
 

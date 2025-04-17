@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2025-4-W15.md",
+                "file": "blog/health-care-live.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-4-W15"
+              "title": "health-care-live"
             }
           }
         ],
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "六皇后",
+                "query": "tag:#周记",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -89,7 +89,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -157,13 +158,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2025-4-W15.md",
+                "file": "blog/health-care-live.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-4-W15 的大纲"
+              "title": "health-care-live 的大纲"
             }
           },
           {
@@ -172,68 +173,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "3935a54c278fcc37",
-            "type": "leaf",
-            "state": {
-              "type": "note-preview",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "50cd4f983d3afed4",
-            "type": "leaf",
-            "state": {
-              "type": "copilot-chat-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "6f933207dfca7b27",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "14d62da9293a469d",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "038a0f6fe21bba19",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
-            }
-          },
-          {
-            "id": "51705021b063ff75",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "插件不再活动"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           },
           {
@@ -247,11 +188,11 @@
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 225.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -276,15 +217,17 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "15c99b12821052f5",
+  "active": "13be3b27cd778e58",
   "lastOpenFiles": [
-    "blog/health-care-live.md",
-    "assets/image.webp",
     "assets/image-1.webp",
+    "blog/2025-4-W15.md",
+    "assets/image.webp",
+    "blog/health-care-live.md",
+    "assets/image-6.webp",
+    "assets/image-5.webp",
     "assets/image-2.webp",
     "assets/image-3.webp",
     "assets/image-4.webp",
-    "blog/2025-4-W15.md",
     "Templates/QuickAddTemplate.md",
     "assets",
     "Assets",
@@ -308,8 +251,6 @@
     "Markdown/images/4a50cbe6056821988033294d0745018e14ddb6eaa95ab0ea3e6c6196a8ecbf16.png",
     "Markdown/images/3c120bb6dd980b5fdcd0c9271c2048de6a70a1fb9776eb6c7ba39c2118763660.png",
     "Markdown/images/de49cdb2a3908accd96b4b048635db810bb182d9de8b965e46df90f05d435f6a.png",
-    "Markdown/images/1452d311fd06eb5c576de4a2e0a27d850cab7f159714ec775356c8e9ea296fe9.png",
-    "Markdown/images/d9dfd8fd61fc607b70d8d809fb7e31ddeda93e84ee55d8cd2505a4c86516bc06.png",
     "Markdown/images",
     "03 Skills/软件技术相关/折腾/Obisidian.md",
     "Markdown",

@@ -31,10 +31,12 @@ export const config = {
   },
   social: {
     github: "https://github.com/Ygria",
-    x: "https://x.com/xxx",
-    xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
-    wechat: "https://storage.xxx.com/images/wechat-official-account.png",
-    buyMeACoffee: "https://www.buymeacoffee.com/xxx",
+    techBlog: "https://ygria.site",
+    digitalGarden: "https://digital-garden.ygria.site/",
+    // x: "https://x.com/xxx",
+    // xiaohongshu: "https://www.xiaohongshu.com/user/profile/xxx",
+    // wechat: "https://storage.xxx.com/images/wechat-official-account.png",
+    // buyMeACoffee: "https://www.buymeacoffee.com/xxx",
   },
   giscus: {
     repo: "Ygria/ygria-blog",

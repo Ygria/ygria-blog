@@ -38,15 +38,15 @@ export function Header() {
 
         {/* Right side buttons */}
         <div className="flex items-center space-x-2 md:space-x-8 mr-4">
-          <Link href="https://github.com/guangzhengli" title="Github">
+          <Link href="https://github.com/Ygria" title="Github">
             <GithubIcon />
           </Link>
-          <Link href="https://x.com/iguangzhengli" title="X">
+          {/* <Link href="https://x.com/iguangzhengli" title="X">
             <XIcon />
           </Link>
           <Link href="https://www.xiaohongshu.com/user/profile/6076c9a2000000000101e862" title="Xiaohongshu">
             <XiaohongshuIcon />
-          </Link>
+          </Link> */}
         </div>
       </motion.div>
     </header >

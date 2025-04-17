@@ -99,6 +99,15 @@ export default async function BlogPage(props: BlogsPageProps) {
 
   const toc = await getTableOfContents(blog.content)
 
+  const formattedDate = (() => {
+    const [year, month, day] = new Date(blog.date).toLocaleDateString('zh-CN', {
+      year: 'numeric',
+      month: 'numeric',
+      day: 'numeric'
+    }).split('/');
+    return `${year}年${month}月${day}日`;
+  })();
+
   return (
     <main className="relative py-6 max-w-full md:max-w-6xl mx-auto lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]">
       <div className="max-w-4xl mx-auto w-full px-6">
@@ -108,11 +117,8 @@ export default async function BlogPage(props: BlogsPageProps) {
 
         <div className="my-4">
           <p className="text-sm">
-            {new Date(blog.date).toLocaleDateString('zh-CN', {
-              year: 'numeric',
-              month: 'numeric', 
-              day: 'numeric'
-            }).replace(/\//g, '年').replace(/\//g, '月') + '日'} · {count(blog.content)} 字
+            {blog.date}
+            {formattedDate} · {count(blog.content)} 字
           </p>
         </div>
 
