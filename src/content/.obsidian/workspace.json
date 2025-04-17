@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -217,12 +216,17 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "13be3b27cd778e58",
+  "active": "15c99b12821052f5",
   "lastOpenFiles": [
+    "assets/image.webp",
+    "assets/207c9aa11a81d1fe0cddffee511b56d.webp",
+    "assets/914082f139d247623b36916b6ce8ef7.webp",
+    "assets/6e628719ccd0ba1b951a5ab3b590ea1.webp",
+    "assets/e632ea30dc1ed09ef9c1f17fb1358d6.webp",
+    "Templates/Front Matter.md",
+    "blog/health-care-live.md",
     "assets/image-1.webp",
     "blog/2025-4-W15.md",
-    "assets/image.webp",
-    "blog/health-care-live.md",
     "assets/image-6.webp",
     "assets/image-5.webp",
     "assets/image-2.webp",
@@ -234,7 +238,6 @@
     "Templates/frontmatter-ai-template.md",
     "().md",
     "blog/保健品销售.md",
-    "Templates/Front Matter.md",
     "Templates/Current Thoughts.md",
     "Templates/Today Todo.md",
     "Templates",
@@ -248,9 +251,6 @@
     "04 Note/非虚构/纪实文学/《奥威尔自述：通往威根码头之路》.md",
     "Markdown/model.md",
     "04 Note/音乐剧",
-    "Markdown/images/4a50cbe6056821988033294d0745018e14ddb6eaa95ab0ea3e6c6196a8ecbf16.png",
-    "Markdown/images/3c120bb6dd980b5fdcd0c9271c2048de6a70a1fb9776eb6c7ba39c2118763660.png",
-    "Markdown/images/de49cdb2a3908accd96b4b048635db810bb182d9de8b965e46df90f05d435f6a.png",
     "Markdown/images",
     "03 Skills/软件技术相关/折腾/Obisidian.md",
     "Markdown",
