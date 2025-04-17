@@ -117,7 +117,7 @@ export default async function BlogPage(props: BlogsPageProps) {
 
         <div className="my-4">
           <p className="text-sm">
-            {blog.date}
+       
             {formattedDate} · {count(blog.content)} 字
           </p>
         </div>
