@@ -1,179 +1,177 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://xxx.com</id>
+    <id>https://blog.ygria.site/</id>
     <title>Your Blog</title>
-    <updated>2025-04-05T13:14:31.224Z</updated>
+    <updated>2025-04-18T04:50:24.216Z</updated>
     <generator>Feed for Node.js</generator>
     <author>
-        <name>Your Name</name>
-        <email>your.email@example.com</email>
-        <uri>https://xxx.com</uri>
+        <name>Ygria</name>
+        <email>sturtzdumulot@hotmail.com</email>
+        <uri>https://blog.ygria.site/</uri>
     </author>
-    <link rel="alternate" href="https://xxx.com"/>
-    <link rel="self" href="https://xxx.com/atom.xml"/>
+    <link rel="alternate" href="https://blog.ygria.site/"/>
+    <link rel="self" href="https://blog.ygria.site//atom.xml"/>
     <subtitle>Your Blog Description</subtitle>
-    <logo>https://xxx.com/favicon.png</logo>
-    <icon>https://xxx.com/favicon.ico</icon>
+    <logo>https://blog.ygria.site//favicon.png</logo>
+    <icon>https://blog.ygria.site//favicon.ico</icon>
     <rights>All rights reserved 2025, Your Name</rights>
     <entry>
-        <title type="html"><![CDATA[Markdown 基本用法]]></title>
-        <id>https://xxx.com/blog/hello-world</id>
-        <link href="https://xxx.com/blog/hello-world"/>
-        <updated>2025-04-05T12:10:00.000Z</updated>
-        <summary type="html"><![CDATA[这篇文章包含markdown语法基本的内容。]]></summary>
-        <content type="html"><![CDATA[<p>这篇文章包含markdown语法基本的内容。</p>
-<p>在markdown里可以使用 \ 对特殊符号进行转义。  </p>
-<h1>1. 标题</h1>
-<p><strong>语法</strong></p>
-<pre><code class="language-md"># This is an &lt;h1&gt; tag
-## This is an &lt;h2&gt; tag
-### This is an &lt;h3&gt; tag
-#### This is an &lt;h4&gt; tag
-</code></pre>
-<p><strong>实例</strong></p>
-<h1>This is an h1 tag</h1>
-<h2>This is an h2 tag</h2>
-<h3>This is an h3 tag</h3>
-<h4>This is an h4 tag</h4>
-<h1>2. 强调和斜体</h1>
-<p><strong>语法</strong></p>
-<pre><code class="language-md">*This text will be italic*
-_This will also be italic_
-
-**This text will be bold**
-__This will also be bold__
-</code></pre>
-<p><strong>实例</strong></p>
-<p><em>This text will be italic</em>
-<em>This will also be italic</em></p>
-<p><strong>This text will be bold</strong>
-<strong>This will also be bold</strong></p>
-<h1>3. 有序列表和无序列表</h1>
-<p><strong>语法</strong></p>
-<pre><code class="language-md">* Item 1
-* Item 2
-* Item 3
-
-1. Item 1
-2. Item 2
-3. Item 3
-</code></pre>
-<p><strong>实例</strong></p>
-<ul>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
-</ul>
+        <title type="html"><![CDATA[谨防老人上当，直播销售保健品套路]]></title>
+        <id>https://blog.ygria.site//blog/health-care-live</id>
+        <link href="https://blog.ygria.site//blog/health-care-live"/>
+        <updated>2025-04-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<p>听到一期播客专门科普大健康赛道的主播怎么引流到私域再促成交，讲的内容非常干货，推荐一下： </p>
+<p><a href="https://www.xiaoyuzhoufm.com/episode/67f3e2080decaeb094817e83">揭秘健康主播（上） 专家如何七天速成</a></p>
+<p>可以扫码获取转写文稿 PDF↓</p>
+<p><img src="https://images.ygria.site/2025/04/33f06ac9078a024292bec4bfed0cfa05.webp" alt="e632ea30dc1ed09ef9c1f17fb1358d6|426x443"></p>
+<p>一直都知道那种所谓“世代从医”、“从曾祖父开始专治一种病”的医生不过是演员：</p>
+<p><a href="https://www.bilibili.com/video/BV1oi4y1N7fz/?spm_id_from=333.337.search-card.all.click&vd_source=5698df189d4600a1af2f2cedad918af1">多次“违背祖宗献药方”曝光后，“神医”张文荣被一家坐诊医院免职了</a></p>
+<p><img src="https://images.ygria.site/2025/04/bf31457e9c721a678bdde91cc5dfea33.webp" alt="image|488x274"></p>
+<p>但听了这期还是惊觉<strong>他们早已形成了一套产业链条</strong>，从培训上岗到和客户的沟通、再到逼单促成交，都有老带新的完整培训是不断演进学习出来的一套体系，而他们的目标客户，常常是文化水平不高、较为感性和情绪化、较为冲动的人，很多都是有身体问题的老年人。</p>
+<p>在他们的威逼利诱、连吓带骗之下，这些老年人仿佛任人宰割的肥羊，对他们深信不疑，不仅投入情感且花费大量的钱财，还常常耽误自身病情。这一期播客就是讲述了他们的内幕细节，多加了解，谨防被骗！</p>
+<h1>大健康直播套路</h1>
+<h2>扩张方式：招募合伙人，交钱当销售</h2>
+<h3>二次创业，成为合伙人</h3>
+<p>公司以提供产品和⼆次创业机会为诱饵，吸引渴望快速成功的人群。在应聘过程中，公司通过展示创始人背景、职业成就以及直播流程，强调参与事业说明会来解答疑问，极力推荐成为合伙⼈的方式。创始人及联合创始人起初也是从基础服务商做起，逐渐转型为主导招募新成员，而非亲自直播。</p>
+<h3>投资和分享会</h3>
+<p>大健康主播和销售，很多都是自己交钱买产品囤货，成为某类产品的“服务商”，一开始就要交几万块钱囤货。一遍和一遍宣传效果的重复中，为了取信于人，他们也必须先自己吃、自己信，才可以有这样的信念感。虽然模式很像传销，但都会跟你强调是符合国家规定的“直销”。</p>
+<p>分享会展示的是各种各样的成交记录、视频资料，会让首批产品不是“购买”，而是“投资”。</p>
+<h2>直播技巧：引流到私域</h2>
+<h4>平台起号</h4>
 <ol>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3</li>
+<li>会多注册几个号，防止某个账号被封禁导致无法直播。</li>
+<li>注册完成之后会专门检索垂直内容，从而让后台给账号贴上相关的兴趣标签，更容易获得流量。</li>
+<li>一旦出了爆款视频，立刻多人轮番在线直播，保持长在线时间。</li>
+<li>如果被限流，则同公司其他账号一起积极互动、引流，帮助恢复流量</li>
 </ol>
-<h1>4. 图片</h1>
-<p><strong>语法</strong></p>
-<pre><code>![img-name](img-url)
-</code></pre>
-<p><strong>实例</strong>
-<img src="https://storage.guangzhengli.com/images/wechat-official-account.png" alt="微信公众号"></p>
-<h1>5. 超链接</h1>
-<p><strong>语法</strong></p>
-<pre><code>[link-name](link-url)
-</code></pre>
-<p><strong>实例</strong></p>
-<p><a href="https://storage.guangzhengli.com/images/wechat-official-account.png">微信公众号链接</a></p>
-<h1>6. 引用</h1>
-<p><strong>语法</strong></p>
-<pre><code class="language-md">&gt; 引用本意是引用别人的话之类  
-</code></pre>
-<p><strong>实例</strong></p>
+<h4>“立人设”</h4>
+<p>在直播间中，通过设立专业的人设，使用特定的称呼，如“博士”、“老师”、“教授”等以及精心设置的环境和语言，主播能够迅速从新手成长为看似专家的角色。此外，他们采用一套经过验证的话术，比如“11 条鱼”、“旅途中的救助”、“车辆需要保养，人也需要保养”等等故事反复讲述来洗脑观众。</p>
+<p>毫无医学经验的新手小白摇身一变，就成了头衔满满的博士、院长、主任。在工信部出规定禁止之前，还会穿着白衣服，给人白大褂的暗示和联想。</p>
 <blockquote>
-<p>If you please draw me a sheep!<br>不想当将军的士兵, 不是好士兵.  </p>
+<p>根据直播者的年龄打造人设，年轻一些的：老师、博士，年长一些的：主任、院长。</p>
 </blockquote>
-<h1>7. 单行代码</h1>
-<p><strong>语法</strong></p>
-<pre><code>`This is an inline code.`
-</code></pre>
-<p><strong>实例</strong></p>
-<p><code>同样的单行代码, 我经常用来显示特殊名词</code></p>
-<h1>8. 多行代码</h1>
-<p><strong>语法</strong></p>
-<pre><code class="language-md">​```js
-for (var i=0; i&lt;100; i++) {
-    console.log(&quot;hello world&quot; + i);
-}
-​```
-</code></pre>
-<p><strong>实例</strong></p>
-<pre><code class="language-js">for (var i=0; i&lt;100; i++) {
-    console.log(&quot;hello world&quot; + i);
-}
-</code></pre>
-<p>也可以通过缩进来显示代码, 下面是示例:  </p>
-<pre><code>console.loe(&quot;Hello_World&quot;);
-</code></pre>
-<h1>9. 表格</h1>
-<h2>Table</h2>
-<table>
-<thead>
-<tr>
-<th>Table Header 1</th>
-<th>Table Header 2</th>
-<th>Table Header 3</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-<tr>
-<td>Division 1</td>
-<td>Division 2</td>
-<td>Division 3</td>
-</tr>
-</tbody></table>
-<h1>参考链接</h1>
+<h3>受众筛选和引流技巧</h3>
+<p><strong>淘汰掉文化水平较高、不太可能成为客户的观众，其实是一种高效而省事的策略。</strong></p>
+<p>术语所谓“钩子”，就是用一些插在视频前面闪烁的视频段落，诱发人们的好奇，比如“黑木耳蘸糖有什么功效”“九种水果可以补钙”等，只提出问题，不给答案，就会有好奇的人进直播间来问，到底有什么功效？哪九种水果可以补钙？</p>
+<p>常见的说法还有：人体只有呈弱碱性才是健康的”、“酸性体质是百病之源，特别容易患癌”、“多吃碱性食品、保健品可以改变酸性体质”…… </p>
+<blockquote>
+<p><img src="https://images.ygria.site/2025/04/510ddf8fcf05d5f8a4e07fada8574295.webp" alt="image-1"> 
+不需要去医院，不需要花钱买钙片，吃点水果就可以补钙，迎合了人们怕麻烦又希望能健康的心理诉求。与其说是“相信”，不如说是“选择相信”、“希望是真的”，医生残酷地告诉你某某慢性疾病不可逆，另一个看上去也很权威的人告诉你多吃点某某水果就能好，当然更希望后者是真的。</p>
+</blockquote>
+<h3>规避机器风控</h3>
+<p>为了防止被封禁，会有很多话术和说话技巧，比如手机号不能连续报，否则会被机器扫到而引发平台关注。</p>
+<p>就算被封了，他们也有多个账号可以用。</p>
+<h2>成交技巧 —— PUA 大全</h2>
+<h4>反复练习的沉痛语气</h4>
+<p>每个新来的主播都有陪跑老师，在跟粉丝沟通时甚至语音都会反复练习，老师读一遍，新人读一遍，力求语气、断句等都模仿到位一模一样，不然都要取消发送、重新录音。核心是要力求传达沉稳、权威、专业的人设，要亲切但又不亲近，需要用深沉的语气告诉粉丝他的身体不容乐观，而不能太过客气或温柔，以保持权威。</p>
+<h4>“刚忙完” ——高位权威人设</h4>
+<p>日理万机的繁忙人设更容易塑造权威感，所以不能说“不好意思久等了”，要说“刚忙完，老师来看看你的问题”。</p>
+<h4>回应质疑：立刻反问</h4>
+<p>对于所有的提问，都不能给出回答，而要立刻反问回去，避免在交谈中陷入被动。</p>
 <ul>
-<li><a href="https://guides.github.com/features/mastering-markdown/">https://guides.github.com/features/mastering-markdown/</a>  </li>
-<li><a href="https://help.github.com/articles/basic-writing-and-formatting-syntax/">https://help.github.com/articles/basic-writing-and-formatting-syntax/</a></li>
+<li>你是医生吗？</li>
+<li>不是，医生看好你的问题了吗？</li>
+<li>你们这个是保健品吗？</li>
+<li>不是，保健品是给健康的人吃的，你是健康的人吗</li>
+<li>我可以考虑考虑吗？</li>
+<li>我可以给你时间考虑，你的身体允许你考虑吗？</li>
 </ul>
+<blockquote>
+<p>听到这里，我脑中想到的是打羽毛球，必须每个球回来都要扣杀。这样紧迫、急切地交谈下去，让患者自我怀疑，从而无力分辨，所有的手段都是让患者的重心放在对于自己健康的焦虑上，而不容置疑的语气可能反而让人更为相信。</p>
+</blockquote>
+<h3>舌诊：几天就看上去好多了</h3>
+<p>诊疗是通过拍摄舌头照片来做的，而不同的拍摄环境、饮食等对拍出来的照片实际影响很大。</p>
+<p>而销售会抓住这一点，放大两次舌诊照片的差别，告诉患者，从舌头来看，身体几天就已经获得了明显的改善。</p>
+<h2>全是细节</h2>
+<h3>精心设计的 200 元定金</h3>
+<p>为什么定金是两百元？这是因为微信发一个 200 元的红包没有任何风控措施，直接就可以发。在这中间加的任何一个环节都会成为成单的阻力。转账超过一定金额，就需要输入对方的姓名来确认，而很多客户甚至是不识字的老人。</p>
+<h3>错误的比例有利于复购</h3>
+<p>如果药是配套吃的，比如 A 产品是吃半个月，B 产品是吃一个月，那就不能按正好的比例 2 A 1 B 来卖，因为正好一个月吃完，如果没有效果，可能就不复购了。</p>
+<p>比例不一，比如卖 1 A 1 B，就可以在 A 吃完的时候再去联系患者，患者这时觉得不再买点，吃的药就不全，而就此停止了，剩下的 B 也浪费了，以此为理由一直联系患者，促成复购。</p>
+<h1>乱象丛生，谁在相信“神医”、“保健品”？</h1>
+<p>从人民网上，我看到了对于曾经的“神医”、号称绿豆治疗万物的张悟本的报道。</p>
+<p><a href="http://paper.people.com.cn/mszk/html/2011-02/14/content_758822.htm?div=-1"># 张悟本：又一位神医的倒下</a></p>
+<p>文中写道：</p>
+<blockquote>
+<p>如果百姓摸摸口袋，发现相信神医永远比相信医院简单、划算，张悟本们就还会重新回到神坛。</p>
+</blockquote>
+<p>我想现在依然是这样，去医院总是麻烦、折腾，医生冷冰冰地告诉你要合理饮食、好好锻炼、慢性病不可逆、治不好，而这时手机微信群里的祖传好几代的神医说着他的产品包治百病，无效退款，听他的课好好做笔记还有红包拿……</p>
+<p>当他们说的话每一句都说在你的心坎上：辛勤了半辈子，不好好养生，万一瘫痪在床被护工欺负扇耳光，自己买些产品吃，养好身体，不给孩子添麻烦……唤起共鸣、焦虑的话一遍一遍地说，本质也是一门情绪的生意。</p>
+<p>当城市里的老人社交面狭窄，没有朋友愿意听他说话，有个地方让他感觉被关心、被重视，只要付钱，就可以获得保健品销售人员的嘘寒问暖，也许他们被骗也包含着一部分的心甘情愿。</p>
+<h1>相关阅读</h1>
+<h2><strong>养生馆</strong>电击屁股，给人吃奶牛饲料号称包治百病</h2>
+<p><a href="https://m.thepaper.cn/kuaibao_detail.jsp?contid=2857685&from=kuaibao"># 记者卧底“华林”近一月，揭开保健品“直销”背后的秘密</a></p>
+<p><img src="https://images.ygria.site/2025/04/04206a138f235f44ee997ba00517e2af.webp" alt="image"></p>
+<p>从这里也可以看到 PUA 手法的运用，核心是别人提出异议一定要杠回去+打压。</p>
+<h2>中医大师，自己看病不用中医</h2>
+<p><img src="https://images.ygria.site/2025/04/b8dcc4ba5124c6688d5bdd6f2a0f4e39.webp" alt="6e628719ccd0ba1b951a5ab3b590ea1"></p>
+<h2>中医注射液致 2 岁女童夭折</h2>
+<p><img src="https://images.ygria.site/2025/04/dbfa303d8326838e6a7f473b37ca95c7.webp" alt="914082f139d247623b36916b6ce8ef7"></p>
+<h2>医药卫生学部院士张伯礼论文引争议，用患者做实验导致肾损伤偷偷撤稿</h2>
+<p><img src="https://images.ygria.site/2025/04/0fe9dfcbe7f5b60a36870416593c7354.webp" alt="207c9aa11a81d1fe0cddffee511b56d|700x24"></p>
+<p>我并不全盘否认中医，但不理解为什么很多中成药可以获得豁免权，没有充分的临床试验，可以大行其道，在全面集采下依然能以高昂的价格进入集采名单？</p>
+<h1>总结</h1>
+<p>不迷信权威，仔细辨别信源，哪怕是主任、博士、院士、教授</p>
+<ol>
+<li><p>知识水平不代表道德水平，学历头衔光环不意味着他们是菩萨佛祖普渡众生，更可能是想从你口袋掏钱 </p>
+</li>
+<li><p>穿上白大衣谁都敢说自己是医生，针织厂工人说自己祖上就从医，更何况院士尚且偷偷撤稿，他们的“头衔”又有多少水分？</p>
+</li>
+</ol>
 ]]></content>
         <author>
-            <name>Your Name</name>
-            <email>your.email@example.com</email>
-            <uri>https://xxx.com</uri>
+            <name>Ygria</name>
+            <email>sturtzdumulot@hotmail.com</email>
+            <uri>https://blog.ygria.site/</uri>
         </author>
     </entry>
     <entry>
-        <title type="html"><![CDATA[博客模板介绍]]></title>
-        <id>https://xxx.com/blog/intro</id>
-        <link href="https://xxx.com/blog/intro"/>
-        <updated>2025-04-05T12:10:00.000Z</updated>
-        <summary type="html"><![CDATA[这是一个 Nextjs 博客模板，本文会介绍这个模板的一些基本用法]]></summary>
-        <content type="html"><![CDATA[<p>这是一个 Nextjs 博客模板，本文会介绍这个模板的一些基本用法。</p>
-<p>这个博客模板并没有设计成一个开箱即用的配置型模板，需要用户自行在代码中找到对应的配置。</p>
-<h2>1. 如何编写博客</h2>
-<p>这个仓库的博客文件需要放在 <code>src/content/blog</code> 目录下，可以是 markdown 文件，也可以是 mdx 文件。</p>
-<p>有以下这些元数据需要用户自行根据需要进行配置：</p>
-<ul>
-<li><code>title</code>: 博客标题</li>
-<li><code>date</code>: 博客发布日期</li>
-<li><code>updated</code>: 博客更新日期</li>
-<li><code>keywords</code>: 博客关键词，优化 SEO</li>
-<li><code>featured</code>: 是否放在首页</li>
-<li><code>summary</code>: 博客摘要</li>
-</ul>
-<h2>2. 博客配置</h2>
+        <title type="html"><![CDATA[2025-4-W15]]></title>
+        <id>https://blog.ygria.site//blog/2025-4-W15</id>
+        <link href="https://blog.ygria.site//blog/2025-4-W15"/>
+        <updated>2025-04-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这篇文章记录了本周活动，包括摆摊、看汪苏泷演唱会、打网球、我对黄金投资的见解。]]></summary>
+        <content type="html"><![CDATA[<h1>生活</h1>
+<h2>🎾网球</h2>
+<p>和朋友一起约了第一次1V2的网球课。之前花了五百报了六节的夜校课程，算是简单入门。
+<img src="https://images.ygria.site/2025/04/3a47b2b97889c67be6e95b411a34ed48.webp" alt="image-1|700x24"></p>
+<p>1V2强度高很多，练习一会心率就180+了。希望可以尽快学会，和朋友对打。</p>
+<h2>🎙️汪苏泷演唱会</h2>
+<p>和表姐一起去看了汪苏泷《十万伏特2.0》演唱会。表姐说这是她第一次看演唱会。</p>
+<p><img src="https://images.ygria.site/2025/04/053a7b2ba1edb4fa3ee8aca0589c594f.webp" alt="image-2|700x24"></p>
+<p>现场气氛很嗨！我听过的不多，《巴赫旧约》、《就让这大雨全都落下》是听过的，有的旋律很熟悉。大部份是风格轻快的小情歌，开个头就可以一直跟着唱下去，所以全程当KTV一样跟唱也很快乐。</p>
+<p>时长很良心，从19:00开始一直持续到22:20才结束，是我看过演唱会中时长非常长的了。互动环节安排得也挺别致有趣的。</p>
+<h1>投资</h1>
+<h2>黄金</h2>
+<p>四月试水以728元每克的价格买入5g黄金后，黄金价格一路看涨，截至4.14现价758，最高价762元每克。</p>
+<p>之前每年过年过节时都会买一些小的黄金首饰，现在因为金价太高而望而却步，想到之前两千多可以买三四克，现在只能买两克多了，就觉得很贵，不值得。</p>
+<p>国际局势动荡，整体经济下行、消费不振，人民币贬值，美元体系也不稳固，所以黄金走高几乎是必然的。计划等价格低位再买一些。</p>
+<p><img src="https://images.ygria.site/2025/04/a7f3a3860bb2cf84531447512612a09a.webp" alt="image-3"></p>
+<h2>💸摆摊</h2>
+<p>一直想尝试演唱会摆摊！卖椰子水，还买了一些透卡搭配着卖。</p>
+<p><img src="https://images.ygria.site/2025/04/b32b3aee8e7af97c7aea9c2022d18167.webp" alt="image-4"></p>
+<p>和同事一起摆摊两天，收入约70元。最主要是天气不理想：周五下暴雨，周六刮大风，实在都不是摆摊的好天气。</p>
+<p>摆摊赚钱太难了。现在想摆摊赚钱的人特多，抢位置也很凶猛，热门演唱会前有人睡帐篷地占位置，在两棵行道树之间拴绳子拴铁链拴吊床吊网、贴A4纸、停电动车、摆桌子、行军床等等，都是提前把位置霸住，为了好一点的位置常常吵嘴打架。我和好几个摊主攀谈，他们都是比较怕事的，宁愿缩在差一点的位置，不愿和人冲突。</p>
+<p>为了阻击最大的人流量，很多人采取灵活、轻量、游击的战术，直接拿一大把扇子、挎着许多周边等等走动着卖。第一天卖雨衣的也很多，大喇叭还雪上加霜地播报着：场馆内有免费雨衣！不需要购买雨衣！还有卖充电宝的，吆喝着揽客，“看看你的手机还有电吗！”打印纸质票、卖周边的也超级多，有需求的都有充分的同质化竞争。</p>
+<p>此外有很多设备免押租借的。官方出的荧光棒，很难买到，在场馆内很多人都有，可以连接总控全场一起变色，门口就可以租。还有租可以带进去的拍摄设备的。</p>
+<p>周五因为天气闷热，我们的椰子水一摆出来就有人买，旁边的摊主阿姨立刻走过来上手翻捡，看我们卖的是什么。游走着卖的小姑娘也立刻过来站到我们摊前观察探问。</p>
+<p>第二天周六，真的太冷了。我来得很早占好了位置，一整天却只有一单。观察了一下，人虽然很多，但因为风大，不怎么出来逛，基本都聚集在商场内，除了化妆编发生意不错，周边因为汪苏泷官方有出，所以只有打卡免费领的有人愿意扫个码领一下（都是黄牛、票务等引流的）。因为天气冷，水饮生意都不好，喊了表弟来卖爆米花，生意也不太行，只有卖烤肠的生意还可以。</p>
+<p>大风至少把小摊上的东西吹飞了四五次，每次风来的时候，我和同事都要双手按住小黑板、收款牌和贴纸，然后到处捡……很是心酸！</p>
+<p>看完演唱会时走出来，感到这个城市还是挺有温度的。大量辅警、交警、地铁工作人员一直维持着秩序，大声提醒着“不要跑，快点过马路，小心，不要挤”，声音都嘶哑了。有免费的接驳车摆渡到地铁站和免费公交车。十点多依然很多人摆着摊等着生意，天气这么冷，大家都是努力奔着生活呀。</p>
+<h1>书影剧</h1>
+<h2>凡人修仙传</h2>
+<p>在b站追番看了几集凡人修仙传，又找了小说来看。</p>
+<p>设定挺不落俗套的——韩立一开始想要变强的理由是想多赚点银子补贴家用……这理由很朴实也很实在。然后主人公遇到事情都考虑得很周详，还会因为考虑不周而真的有可能死。</p>
+<p>韩立在展露实力之后，并没有大家都立刻舔上来，而是因为实力过强而遭人猜忌和防范。</p>
+<p>感觉作者在写的时候是有思考的，不是一味迎合情绪。蛮不错，可以看看。</p>
+<h2>音乐剧 Six</h2>
+<p>在抖音刷到了手书段落，觉得很棒，在B站上看了全片视频。讲的是英国国王亨利八世的六位妻子的故事，所以又叫《六王后》。
+今年会在上海开很多场，26年会来国内巡演，有机会可以去看看。</p>
 ]]></content>
         <author>
-            <name>Your Name</name>
-            <email>your.email@example.com</email>
-            <uri>https://xxx.com</uri>
+            <name>Ygria</name>
+            <email>sturtzdumulot@hotmail.com</email>
+            <uri>https://blog.ygria.site/</uri>
         </author>
     </entry>
 </feed>

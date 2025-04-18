@@ -47,15 +47,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.2866666666666667,
-      "characterCount": 377,
+      "characterCount": 355,
       "nonWhitespaceCharacterCount": 321,
       "readingTimeInMinutes": 0.20037735849056604,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744859340049,
-      "modifiedDate": 1744859340049,
-      "sizeInBytes": 529
+      "modifiedDate": 1744951877216,
+      "sizeInBytes": 507
     },
     "Templates/Today Todo.md": {
       "isCountable": true,
@@ -65,15 +65,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.013333333333333334,
-      "characterCount": 61,
+      "characterCount": 57,
       "nonWhitespaceCharacterCount": 42,
       "readingTimeInMinutes": 0.01509433962264151,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744859340061,
-      "modifiedDate": 1744859340061,
-      "sizeInBytes": 63
+      "modifiedDate": 1744951876363,
+      "sizeInBytes": 59
     },
     "Templates/QuickAddTemplate.md": {
       "isCountable": true,
@@ -90,20 +90,14 @@
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744859340060,
-      "modifiedDate": 1744862004162,
-      "sizeInBytes": 128,
+      "modifiedDate": 1744951874450,
+      "sizeInBytes": 69,
       "frontmatter": {
         "created": {
           "{ DATE:YYYY-MM-DD HH:mm }": null
         },
-        "tags": [
-          ""
-        ],
-        "status": [
-          "🟡处理中",
-          "🟢已完成",
-          "🔴待跟进"
-        ]
+        "tags": null,
+        "status": []
       }
     },
     "Templates/Front Matter.md": {
@@ -164,15 +158,15 @@
       "wordCountTowardGoal": 0,
       "wordGoal": null,
       "pageCount": 0.006666666666666667,
-      "characterCount": 24,
+      "characterCount": 23,
       "nonWhitespaceCharacterCount": 20,
       "readingTimeInMinutes": 0.007547169811320755,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1744859340060,
-      "modifiedDate": 1744859340060,
-      "sizeInBytes": 26
+      "modifiedDate": 1744945198952,
+      "sizeInBytes": 25
     },
     "blog/health-care-live.md": {
       "isCountable": true,
