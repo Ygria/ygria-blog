@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts.md",
+                "file": "game/balatro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concepts"
+              "title": "balatro"
             }
           }
         ],
@@ -157,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concepts.md",
+                "file": "blog/health-care-live.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Concepts 的大纲"
+              "title": "health-care-live 的大纲"
             }
           },
           {
@@ -187,7 +187,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -218,25 +218,32 @@
   },
   "active": "15c99b12821052f5",
   "lastOpenFiles": [
+    "game/game-of-sultans.md",
+    "Templates/frontmatter-ai-template.md",
     "Templates/Today Todo.md",
     "Concepts.md",
     "Templates/QuickAddTemplate.md",
-    "Templates/frontmatter-ai-template.md",
     "Templates/Front Matter.md",
-    "Templates/Current Thoughts.md",
-    "blog/2025-4-W15.md",
-    "blog/health-care-live.md",
+    "game/balatro.md",
+    "assets/image-1.webp",
     "assets/image.webp",
+    "assets/image.jpeg",
+    "assets/image-2.webp",
+    "blog/health-care-live.md",
+    "assets",
+    "game",
+    "gam",
+    "projects",
+    "courses",
+    "blog/2025-4-W15.md",
+    "blog/未命名.md",
+    "Templates/Current Thoughts.md",
     "assets/207c9aa11a81d1fe0cddffee511b56d.webp",
     "assets/914082f139d247623b36916b6ce8ef7.webp",
     "assets/6e628719ccd0ba1b951a5ab3b590ea1.webp",
     "assets/e632ea30dc1ed09ef9c1f17fb1358d6.webp",
-    "assets/image-1.webp",
     "assets/image-6.webp",
     "assets/image-5.webp",
-    "assets/image-2.webp",
-    "assets/image-3.webp",
-    "assets",
     "Assets",
     "().md",
     "blog/保健品销售.md",
@@ -256,14 +263,6 @@
     "Markdown",
     "03 Skills/软件技术相关/ORM/drizzle.md",
     "03 Skills/设计/高级感平面版式设计作品.md",
-    "03 Skills/产品使用/用Cloudflare Worker做一个微信封面图生成服务.md",
-    "03 Skills/产品使用/00 Obisidian常用快捷键.md",
-    "03 Skills/摆摊/01 公园摆摊记.md",
-    "03 Skills/产品使用/Automa详解：浏览器行为自动化和我的使用.md",
-    "Summary/概念学习",
-    "Summary",
-    "07 思考录/管理",
-    "03 Skills/摆摊",
     "未命名.canvas",
     "Note/非虚构/未命名.canvas",
     "未命名 1.canvas"
