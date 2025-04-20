@@ -1,4 +1,4 @@
-import { allBlogs } from "content-collections"
+
 import type { Metadata } from "next"
 import { absoluteUrl } from "@/lib/utils"
 import { notFound } from "next/navigation"
@@ -85,7 +85,7 @@ export async function generateMetadata({ params }: BlogsPageProps): Promise<Meta
 
 export async function generateStaticParams(): Promise<string[]> {
   // @ts-ignore
-  return allBlogs.map((blog: any) => ({
+  return allGames.map((blog: any) => ({
     slug: blog.slug.split('/'),
   }))
 }
