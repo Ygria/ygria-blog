@@ -49,6 +49,14 @@ export const config = {
         title: "文章", 
         href: "/blog",
       },
+      { 
+        title: "游戏", 
+        href: "/game",
+      },
+      { 
+        title: "项目", 
+        href: "/projects",
+      },
     ],
   },
   seo: {

@@ -4,7 +4,19 @@ import { withContentCollections } from "@content-collections/next";
 
 const nextConfig: NextConfig = {
   pageExtensions: ['js', 'jsx', 'md', 'mdx', 'ts', 'tsx'],
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.ygria.site',
+        port: '',
+        pathname: '/**',
+        search: '',
+      },
+    ],
+  },
 };
+
 
 const withMDX = createMDX({
 })
