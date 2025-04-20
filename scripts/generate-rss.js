@@ -10,10 +10,10 @@ import { marked } from 'marked';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const BASE_URL = 'https://xxx.com';
+const BASE_URL = 'https://blog.ygria.site/';
 const AUTHOR = {
-  name: "Your Name",
-  email: "your.email@example.com",
+  name: "Ygria",
+  email: "sturtzdumulot@hotmail.com",
   link: BASE_URL
 };
 

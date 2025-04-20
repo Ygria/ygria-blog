@@ -60,7 +60,7 @@ export const config = {
     ],
   },
   seo: {
-    metadataBase: new URL("https://xxx.com"),
+    metadataBase: new URL("https://blog.ygria.site/"),
     alternates: {
       canonical: './',
     },
@@ -70,7 +70,7 @@ export const config = {
     },
     twitter: {
       card: "summary_large_image" as const,
-      creator: "@xxx",
+      creator: "@Ygria",
     },
   },
 };
