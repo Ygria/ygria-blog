@@ -1,9 +1,9 @@
 import { type Metadata } from "next";
 import { allGames } from "content-collections";
 import Link from "next/link";
-import count from 'word-count'
+
 import { config } from "@/lib/config";
-import Image from "next/image";
+
 import GamePoster from "./components/game-poster"
 
 export const metadata: Metadata = {
