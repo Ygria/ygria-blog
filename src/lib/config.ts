@@ -52,11 +52,8 @@ export const config = {
       { 
         title: "游戏", 
         href: "/game",
-      },
-      { 
-        title: "项目", 
-        href: "/projects",
-      },
+      }
+   
     ],
   },
   seo: {

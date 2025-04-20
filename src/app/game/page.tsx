@@ -7,9 +7,9 @@ import { config } from "@/lib/config";
 import GamePoster from "./components/game-poster"
 
 export const metadata: Metadata = {
-  title: `Blogs | ${config.site.title}`,
-  description: `Blogs of ${config.site.title}`,
-  keywords: `${config.site.title}, blogs, ${config.site.title} blogs, nextjs blog template`,
+  title: `Games | ${config.site.title}`,
+  description: `Game of ${config.site.title}`,
+  keywords: `${config.site.title}, games, ${config.site.title} games, ygria's dialy`,
 };
 
 export default function GamePage() {
