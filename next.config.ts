@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
         search: '',
       },
     ],
+    unoptimized: true, 
   },
 };
 

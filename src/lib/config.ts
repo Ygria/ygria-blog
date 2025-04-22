@@ -45,30 +45,28 @@ export const config = {
   },
   navigation: {
     main: [
-      { 
-        title: "文章", 
+      {
+        title: "文章",
         href: "/blog",
       },
-      { 
-        title: "游戏", 
+      {
+        title: "游戏",
         href: "/game",
       },
-      { 
-        title: "时间轴", 
+      {
+        title: "时间轴",
         href: "/timeline",
       },
-      { 
-        title: "成就", 
+      {
+        title: "成就",
         href: "/achievements",
       },
-      
-   
     ],
   },
   seo: {
     metadataBase: new URL("https://blog.ygria.site/"),
     alternates: {
-      canonical: './',
+      canonical: "./",
     },
     openGraph: {
       type: "website" as const,
