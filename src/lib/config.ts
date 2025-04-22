@@ -52,7 +52,16 @@ export const config = {
       { 
         title: "游戏", 
         href: "/game",
-      }
+      },
+      { 
+        title: "时间轴", 
+        href: "/timeline",
+      },
+      { 
+        title: "成就", 
+        href: "/achievements",
+      },
+      
    
     ],
   },

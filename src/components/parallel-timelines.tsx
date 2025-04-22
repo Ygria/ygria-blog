@@ -42,11 +42,6 @@ const categoryColors = {
     local: { main: "#10b981", light: "#6ee7b7", dark: "#047857", bg: "#ecfdf5" },
     personal: { main: "#8b5cf6", light: "#c4b5fd", dark: "#6d28d9", bg: "#f5f3ff" },
 }
-const categoryIcons = {
-    world: <Globe className="h-5 w-5" />,
-    local: <Users className="h-5 w-5" />,
-    personal: <User className="h-5 w-5" />,
-}
 
 // --- Date Handling ---
 function parseDate(dateStr: string): Date {
@@ -217,7 +212,7 @@ export function ParallelTimelines() {
                 window.removeEventListener("resize", debouncedUpdateDimensions);
             }
         }
-    }, [eventsData]);
+    }, []);
 
 
     // Date Range & Markers
@@ -303,7 +298,12 @@ export function ParallelTimelines() {
                     startY = dateToPosition(parseDate(event.startDate), dateRange.min, dateRange.max, height, paddingTop, paddingBottom);
                     if (event.endDate) endY = dateToPosition(parseDate(event.endDate), dateRange.min, dateRange.max, height, paddingTop, paddingBottom);
                     if (isNaN(startY) || (endY !== undefined && isNaN(endY))) throw new Error("Invalid date position");
-                } catch (e) { return null; } // Skip problematic events
+                } catch (e) { 
+
+                    console.error(e);
+                    return null; 
+                
+                } // Skip problematic events
 
                 const color = categoryColors[category];
                 const labelOffsetX = category === "personal" ? -165 : 25;
@@ -566,7 +566,12 @@ function MobileTimeline({ events, dateRange, onSelectEvent }: MobileTimelineProp
                         startY = dateToPosition(parseDate(event.startDate), dateRange.min, dateRange.max, height, paddingTopMobile, paddingBottomMobile);
                         if (event.endDate) endY = dateToPosition(parseDate(event.endDate), dateRange.min, dateRange.max, height, paddingTopMobile, paddingBottomMobile);
                         if (isNaN(startY) || (endY !== undefined && isNaN(endY))) return null; // Skip if position invalid
-                    } catch (e) { return null; }
+                    } catch (e) {
+                        
+                        console.error(e);
+                        return null; 
+                    
+                    }
 
                     const direction = index % 2 === 0 ? 1 : -1; // Alternate sides
                     const baseOffset = width * 0.18;
