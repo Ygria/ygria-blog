@@ -1,7 +1,7 @@
 // PokemonCard.jsx
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { useSpring, animated, interpolate } from '@react-spring/web'; // Use '@react-spring/web'
-import { clamp, round, adjust } from '../helpers/Math'; // Adjust path if needed
+import { clamp, round, adjust } from '@/lib/math'; // Adjust path if needed
 // import './PokemonCard.css'; // Import your CSS file here
 
 // Assuming these props are passed down from a parent component or context
@@ -44,11 +44,7 @@ function PokemonCard({
   foil = "",
   mask = "",
   showcase = false,
-  // Props replacing Svelte stores
-  activeCard,
-  setActiveCard,
-  orientation,
-  resetBaseOrientation,
+
 }) {
 
   const cardRef = useRef(null);
@@ -320,7 +316,7 @@ function PokemonCard({
         }
     }
     // isCardActive is derived state, don't include. popover/retreat are callbacks.
-  }, [activeCard, popover, retreat]);
+  }, [activeCard, popover, retreat,isCardActive]);
 
   // Handle orientation changes for active card
   const handleOrientation = useCallback((relativeOrientation) => {
@@ -355,7 +351,7 @@ function PokemonCard({
         handleOrientation(orientation.relative);
       }
       // Do NOT add handleOrientation to dependencies - it's stable via useCallback
-  }, [isCardActive, orientation]); // Re-run when card becomes active or orientation changes
+  }, [isCardActive, orientation,handleOrientation]); // Re-run when card becomes active or orientation changes
 
   // Visibility change listener
   useEffect(() => {
@@ -418,7 +414,7 @@ function PokemonCard({
 
     if (showcase && isVisible) {
       const s = { tension: 100, friction: 50 }; // Softer config for showcase anim
-      const d = 0.5; // Not directly applicable, use config
+  
       let r = 0;
 
       showcaseTimerStartRef.current = setTimeout(() => {
