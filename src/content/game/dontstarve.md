@@ -17,3 +17,4 @@ platforms:
 
 ![image|700x300](https://images.ygria.site/2025/04/daf777704ecabdb8058f37f324a6d4e8.webp)
 
+在天黑之前找点东西吃，不要让火把熄掉！

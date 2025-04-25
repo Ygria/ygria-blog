@@ -17,6 +17,14 @@
     {
       "folder": "blog",
       "template": "Templates/Front Matter.md"
+    },
+    {
+      "folder": "event",
+      "template": "Templates/Event Front Matter.md"
+    },
+    {
+      "folder": "game",
+      "template": "Templates/Game Front Matter.md"
     }
   ],
   "syntax_highlighting": true,
