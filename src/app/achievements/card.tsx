@@ -1,6 +1,6 @@
 // PokemonCard.tsx
 import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import { useSpring, animated, interpolate } from '@react-spring/web';
+
 import { clamp, round, adjust } from '@/lib/math'; // Adjust path if needed
 // import './PokemonCard.css'; // Import your CSS file here
 
@@ -571,9 +571,7 @@ function PokemonCard({
     // Animated CSS vars from interactionSpring
     '--pointer-x': interactionSpring.glareX.to(x => `${x}%`),
     '--pointer-y': interactionSpring.glareY.to(y => `${y}%`),
-    '--pointer-from-center': interpolate([interactionSpring.glareX, interactionSpring.glareY], (x, y) =>
-        clamp(Math.sqrt(Math.pow(y - 50, 2) + Math.pow(x - 50, 2)) / 50, 0, 1) // Use Math.pow for clarity
-    ),
+   
     '--pointer-from-top': interactionSpring.glareY.to(y => (y / 100)),
     '--pointer-from-left': interactionSpring.glareX.to(x => (x / 100)),
     '--card-opacity': interactionSpring.glareO, // Controls glare layer opacity
@@ -584,20 +582,7 @@ function PokemonCard({
     '--rotate-y': interactionSpring.rotateY.to(ry => `${ry}deg`),
 
 
-    // Combined animated values for transform property
-    transform: interpolate(
-      [
-        popoverSpring.translateX,
-        popoverSpring.translateY,
-        popoverSpring.scale,
-        interactionSpring.rotateX,
-        interactionSpring.rotateY,
-        popoverSpring.rotateDeltaX,
-        popoverSpring.rotateDeltaY,
-      ],
-      (trX, trY, sc, rX, rY, rdX, rdY) =>
-        `translateX(${trX}px) translateY(${trY}px) scale(${sc}) rotateX(${rX + rdX}deg) rotateY(${rY + rdY}deg)`
-    ),
+   
     // Apply foil styles (CSS Variables for mask/foil URLs) directly
     ...foilStyles,
     // Add perspective here if it's not on a static parent
