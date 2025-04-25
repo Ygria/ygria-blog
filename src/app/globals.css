@@ -76,6 +76,11 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  --seedx: 0.6846859133963514;
+  --seedy: 0.10210318035927446;
+  --cosmosbg: 502px 130px;
+  --space: 5%;
 }
 
 .dark {
@@ -120,3 +125,74 @@
     @apply bg-background text-foreground;
   }
 }
+
+#card-foil {
+  /* background-color: red; */
+
+  z-index: 2;
+
+  background-image: var(--foil-url, url("/images/overlapping-diamonds.svg")),
+    repeating-linear-gradient(
+      82deg,
+      hsl(53, 65%, 60%) calc(var(--space) * 1),
+      hsl(93, 56%, 50%) calc(var(--space) * 2),
+      hsl(176, 54%, 49%) calc(var(--space) * 3),
+      hsl(228, 59%, 55%) calc(var(--space) * 4),
+      hsl(283, 60%, 55%) calc(var(--space) * 5),
+      hsl(326, 59%, 51%) calc(var(--space) * 6),
+      hsl(326, 59%, 51%) calc(var(--space) * 7),
+      hsl(283, 60%, 55%) calc(var(--space) * 8),
+      hsl(228, 59%, 55%) calc(var(--space) * 9),
+      hsl(176, 54%, 49%) calc(var(--space) * 10),
+      hsl(93, 56%, 50%) calc(var(--space) * 11),
+      hsl(53, 65%, 60%) calc(var(--space) * 12)
+    ),
+    radial-gradient(
+      farthest-corner circle at var(--pointer-x) var(--pointer-y),
+      hsla(180, 100%, 89%, 0.5) 5%,
+      hsla(180, 14%, 57%, 0.3) 40%,
+      hsl(0, 0%, 0%) 130%
+    );
+
+  background-blend-mode: color-burn, multiply;
+
+  background-position: center center;
+
+  background-size: cover, 50% 50%, cover repeat;
+
+  filter: brightness(0.4) contrast(1.2) saturate(1.2);
+  mix-blend-mode: color-dodge;
+}
+
+
+/* 添加这个简化的 CSS 样式，只增强五彩效果，不添加动画 */
+#card-foil {
+  z-index: 2;
+
+  background-image: var(--foil-url, url("/images/overlapping-diamonds.svg")),
+  repeating-linear-gradient(
+      82deg,
+      hsl(53, 65%, 60%) calc(var(--space) * 1),
+      hsl(93, 56%, 50%) calc(var(--space) * 2),
+      hsl(176, 54%, 49%) calc(var(--space) * 3),
+      hsl(228, 59%, 55%) calc(var(--space) * 4),
+      hsl(283, 60%, 55%) calc(var(--space) * 5),
+      hsl(326, 59%, 51%) calc(var(--space) * 6),
+      hsl(53, 65%, 60%) calc(var(--space) * 7)
+    ),
+    radial-gradient(
+      farthest-corner circle at var(--pointer-x) var(--pointer-y),
+      hsla(180, 100%, 89%, 0.6) 5%,
+      hsla(180, 14%, 57%, 0.4) 40%,
+      hsl(0, 0%, 0%) 130%
+    );
+
+  background-blend-mode: overlay, soft-light;
+  background-position: center center;
+  background-size: cover, 50% 50%, cover repeat;
+
+  filter: brightness(0.5) contrast(1) saturate(1);
+  mix-blend-mode: color-dodge;
+}
+
+

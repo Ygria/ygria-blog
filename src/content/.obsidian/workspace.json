@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/Current Thoughts.md",
+                "file": "Templates/Event Front Matter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Current Thoughts"
+              "title": "Event Front Matter"
             }
           }
         ]
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Current Thoughts.md",
+                "file": "Templates/Event Front Matter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Current Thoughts 的大纲"
+              "title": "Event Front Matter 的大纲"
             }
           },
           {
@@ -191,24 +191,27 @@
   },
   "active": "34e8fa9abd406964",
   "lastOpenFiles": [
+    "blog/chigua.md",
+    "98559dbb401941b6fba6432d0625b0a.webp",
+    "blog/health-care-live.md",
+    "image.webp",
+    "blog/css-foil.md",
+    "2025-04-17.md",
+    "Templates/Current Thoughts.md",
     "game/game-of-sultans.md",
     "game/dontstarve.md",
     "game/balatro.md",
     "event/create-wx-subscription.md",
     "blog/2025-4-W15.md",
-    "blog/chigua.md",
     "Templates/Event Front Matter.md",
     "Templates/Front Matter.md",
-    "Templates/Current Thoughts.md",
     "Templates/Game Front Matter.md",
     "Templates/Game Front Matter 1.md",
     "Templates/frontmatter-ai-template.md",
     "event",
     "archivements",
-    "blog/health-care-live.md",
     "blog/one-day-in-langya.md",
     "image-1.webp",
-    "image.webp",
     "image-16.webp",
     "image-15.webp",
     "image-14.webp",
@@ -216,7 +219,6 @@
     "image-12.webp",
     "image-11.webp",
     "image-10.webp",
-    "image-9.webp",
     "Concepts.md",
     "Templates/Front Matter - 副本.md",
     "game",
@@ -230,9 +232,6 @@
     "04 Note/音乐剧/Six - 六皇后.md",
     "08 规划与执行/公众号写作存档/08 急！恩师和我老丈人干起来了，我该怎么办？从晚唐大诗人李商隐的人生遭际看牛李党争.md",
     "00 Summary/通用知识/过去和现在的世界/世界史/奥地利.md",
-    "未命名 1.md",
-    "00 Summary/通用知识/过去和现在的世界/世界史/英国.md",
-    "04 Note/摘录/鸦片战争之三大恨讨清檄文.md",
     "04 Note/音乐剧",
     "Markdown/images",
     "Markdown",

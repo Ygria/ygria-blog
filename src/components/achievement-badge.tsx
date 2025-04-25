@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
+import { useState, useRef, useEffect, type CSSProperties, useCallback } from "react"
 import { cn } from "@/lib/utils"
 
 type BadgeCategory = "music" | "culture" | "tech" | "hobby" | "learning" | "future"
@@ -40,6 +40,7 @@ export function AchievementBadge({
       border: "border-purple-400",
       glow: "rgba(147, 51, 234, 0.5)",
       emblemBg: "bg-purple-200",
+      foil: "url('/images/cosmos-bottom.png')",
     },
     culture: {
       primary: "from-red-400 to-red-600",
@@ -49,6 +50,7 @@ export function AchievementBadge({
       border: "border-red-400",
       glow: "rgba(239, 68, 68, 0.5)",
       emblemBg: "bg-red-200",
+      foil: "url('/images/endless-clouds.svg')",
     },
     tech: {
       primary: "from-blue-400 to-blue-600",
@@ -58,6 +60,7 @@ export function AchievementBadge({
       border: "border-blue-400",
       glow: "rgba(59, 130, 246, 0.5)",
       emblemBg: "bg-blue-200",
+      foil: "url('/images/overlapping-diamonds.svg')",
     },
     hobby: {
       primary: "from-green-400 to-green-600",
@@ -67,6 +70,7 @@ export function AchievementBadge({
       border: "border-green-400",
       glow: "rgba(34, 197, 94, 0.5)",
       emblemBg: "bg-green-200",
+      foil: "url('/images/foil.jpg')",
     },
     learning: {
       primary: "from-amber-400 to-amber-600",
@@ -76,6 +80,7 @@ export function AchievementBadge({
       border: "border-amber-400",
       glow: "rgba(245, 158, 11, 0.5)",
       emblemBg: "bg-amber-200",
+      foil: "url('/images/topography.svg')",
     },
     future: {
       primary: "from-gray-400 to-gray-600",
@@ -85,8 +90,63 @@ export function AchievementBadge({
       border: "border-gray-400",
       glow: "rgba(107, 114, 128, 0.5)",
       emblemBg: "bg-gray-200",
+      foil: "url('/images/jupiter.svg')",
     },
   }
+
+  // 初始的、鼠标不在元素上时的默认变量值
+  const defaultPointerVars = {
+    "--pointer-x": "50%", // 默认指向中心 X
+    "--pointer-y": "50%", // 默认指向中心 Y
+    "--pointer-from-left": "0.5", // 默认在 X 轴中心 (50%)
+    "--pointer-from-top": "0.5", // 默认在 Y 轴中心 (50%)
+    "--space": "15px", // 默认的 --space 值
+    "--cosmosbg": "center center", // 如果 cosmosbg 也需要动态变化，加在这里
+    "--foil-url": categoryColors[category].foil, // 默认的 foil 图片 URL
+  }
+
+  const [pointerVars, setPointerVars] = useState(defaultPointerVars)
+
+  const handleMouseMove = useCallback(
+    (event: any) => {
+      if (!foilRef.current) {
+        return // 如果 ref 还未准备好，则退出
+      }
+
+      // 1. 获取元素的边界信息
+      const rect = foilRef.current.getBoundingClientRect()
+
+      // 2. 计算鼠标相对于元素的坐标 (左上角为 0,0)
+      // event.clientX/Y 是相对于视口的坐标
+      const x = event.clientX - rect.left
+      const y = event.clientY - rect.top
+
+      // 限制 x, y 在元素边界内 (可选，防止超出)
+      const elementWidth = rect.width
+      const elementHeight = rect.height
+      const clampedX = Math.max(0, Math.min(x, elementWidth))
+      const clampedY = Math.max(0, Math.min(y, elementHeight))
+
+      // 3. 计算鼠标位置相对于元素尺寸的百分比 (0 到 1)
+      const percentX = elementWidth > 0 ? clampedX / elementWidth : 0.5
+      const percentY = elementHeight > 0 ? clampedY / elementHeight : 0.5
+
+      // 4. 根据计算出的值更新 CSS 变量
+      setPointerVars({
+        "--pointer-x": `${percentX * 100}%`, // 对应径向渐变的中心 X (百分比)
+        "--pointer-y": `${percentY * 100}%`, // 对应径向渐变的中心 Y (百分比)
+        "--pointer-from-left": percentX.toFixed(3), // 用于背景定位计算 (0 到 1)
+        "--pointer-from-top": percentY.toFixed(3), // 用于背景定位计算 (0 到 1)
+        "--space": `15px`, // 保持固定值
+        "--cosmosbg": `center center`, // 保持固定值
+        "--foil-url": categoryColors[category].foil, // 保持 foil 图片 URL
+      })
+    },
+    [category],
+  ) // 添加 category 作为依赖项
+
+  // Ref 来获取 DOM 元素
+  const foilRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     // Check if it's a touch device
@@ -135,6 +195,17 @@ export function AchievementBadge({
     setIsHovered(false)
     // Reset rotation with a smooth transition
     setRotation({ x: 0, y: 0 })
+    setPointerVars(defaultPointerVars)
+  }
+
+  const randomSeed = {
+    x: Math.random(),
+    y: Math.random(),
+  }
+
+  const cosmosPosition = {
+    x: Math.floor(randomSeed.x * 734),
+    y: Math.floor(randomSeed.y * 1280),
   }
 
   return (
@@ -176,10 +247,16 @@ export function AchievementBadge({
             "before:z-10",
             "overflow-hidden",
             "border-2",
+
             categoryColors[category].border,
           )}
           style={{
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%)",
+            clipPath: "polygon(5% 0%, 95% 0%, 100% 5%, 100% 75%, 50% 100%, 0% 75%, 0% 5%)",
+            maskImage:
+              "radial-gradient(circle at 0 0, transparent 0, transparent 5px, black 5px), radial-gradient(circle at 100% 0, transparent 0, transparent 5px, black 5px)",
+            maskSize: "51% 100%",
+            maskPosition: "0 0, 100% 0",
+            maskRepeat: "no-repeat",
             boxShadow: isHovered ? `0 10px 25px ${categoryColors[category].glow}` : "0 5px 15px rgba(0,0,0,0.3)",
             transform: "translateZ(0px)",
           }}
@@ -204,7 +281,7 @@ export function AchievementBadge({
           />
 
           {/* Badge content */}
-          <div className="relative z-20 flex flex-col items-center justify-center h-full p-2">
+          <div className="relative z-30 flex flex-col items-center justify-center h-full p-2">
             {/* Icon circle */}
             <div
               className={cn(
@@ -219,7 +296,7 @@ export function AchievementBadge({
             </div>
 
             {/* Badge name */}
-            <h3 className={cn("font-bold text-center text-xs mt-1 mb-0.5 px-1", categoryColors[category].text)}>
+            <h3 className={cn("font-bold text-center text-sm mt-1 mb-0.5 px-1  z-10", categoryColors[category].text)}>
               {name}
             </h3>
 
@@ -239,11 +316,45 @@ export function AchievementBadge({
           </div>
         </div>
 
+        <div
+          id="card-foil"
+          ref={foilRef}
+          onMouseMove={handleMouseMove} // 监听鼠标移动
+          onMouseLeave={handleMouseLeave} // 监听鼠标离开 (可选)
+          className={cn(
+            "absolute inset-0 rounded-t-2xl",
+            "transition-all duration-300",
+            "before:absolute before:inset-0.5 before:rounded-t-2xl before:bg-gradient-to-b",
+            `before:${categoryColors[category].secondary}`,
+            "before:opacity-80",
+            "before:z-10",
+            "overflow-hidden",
+          )}
+          style={
+            {
+              clipPath: "polygon(5% 0%, 95% 0%, 100% 5%, 100% 75%, 50% 100%, 0% 75%, 0% 5%)",
+              maskImage:
+                "radial-gradient(circle at 0 0, transparent 0, transparent 5px, black 5px), radial-gradient(circle at 100% 0, transparent 0, transparent 5px, black 5px)",
+              maskSize: "51% 100%",
+              maskPosition: "0 0, 100% 0",
+              maskRepeat: "no-repeat",
+              boxShadow: isHovered ? `0 10px 25px ${categoryColors[category].glow}` : "0 5px 15px rgba(0,0,0,0.3)",
+              transform: "translateZ(0px)",
+              ...pointerVars,
+            } as CSSProperties
+          }
+        />
+
         {/* Badge back reflection/shadow */}
         <div
           className="absolute inset-0 bg-black/20 rounded-t-2xl -z-10"
           style={{
-            clipPath: "polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%)",
+            clipPath: "polygon(5% 0%, 95% 0%, 100% 5%, 100% 75%, 50% 100%, 0% 75%, 0% 5%)",
+            maskImage:
+              "radial-gradient(circle at 0 0, transparent 0, transparent 5px, black 5px), radial-gradient(circle at 100% 0, transparent 0, transparent 5px, black 5px)",
+            maskSize: "51% 100%",
+            maskPosition: "0 0, 100% 0",
+            maskRepeat: "no-repeat",
             transform: "translateZ(-1px) scale(0.98) translateY(5px)",
             filter: "blur(4px)",
             opacity: isHovered ? 0.5 : 0.3,
@@ -255,7 +366,7 @@ export function AchievementBadge({
           <div
             className="absolute left-1/2 -translate-x-1/2 bottom-0 translate-y-full mt-2 w-48 p-2 bg-white/90 backdrop-blur-sm rounded-md shadow-lg z-50 text-xs"
             style={{
-              transform: "translateX(-50%) translateY(105%)",
+              transform: "translateX(0%) translateY(30%)",
             }}
           >
             <p className="font-bold text-gray-900">{name}</p>
