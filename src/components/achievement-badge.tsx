@@ -142,7 +142,7 @@ export function AchievementBadge({
         "--foil-url": categoryColors[category].foil, // 保持 foil 图片 URL
       })
     },
-    [category],
+    [category,categoryColors],
   ) // 添加 category 作为依赖项
 
   // Ref 来获取 DOM 元素
@@ -198,15 +198,9 @@ export function AchievementBadge({
     setPointerVars(defaultPointerVars)
   }
 
-  const randomSeed = {
-    x: Math.random(),
-    y: Math.random(),
-  }
 
-  const cosmosPosition = {
-    x: Math.floor(randomSeed.x * 734),
-    y: Math.floor(randomSeed.y * 1280),
-  }
+
+
 
   return (
     <div
