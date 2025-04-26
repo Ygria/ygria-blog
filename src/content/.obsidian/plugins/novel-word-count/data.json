@@ -511,24 +511,56 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 0,
+      "wordCount": 6,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 0,
-      "characterCount": 1,
-      "nonWhitespaceCharacterCount": 0,
-      "readingTimeInMinutes": 0,
+      "pageCount": 0.02,
+      "characterCount": 48,
+      "nonWhitespaceCharacterCount": 40,
+      "readingTimeInMinutes": 0.015547169811320755,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745637999000,
-      "modifiedDate": 1745638022000,
-      "sizeInBytes": 95,
+      "modifiedDate": 1745673444000,
+      "sizeInBytes": 152,
       "frontmatter": {
         "date": "2025-04-17",
         "description": "陈奕迅演唱会",
         "title": "陈奕迅演唱会",
         "type": "music"
+      }
+    },
+    "blog/2025-4-W17.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1616,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 5.386666666666667,
+      "characterCount": 4249,
+      "nonWhitespaceCharacterCount": 3907,
+      "readingTimeInMinutes": 3.444830188679245,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745680790000,
+      "modifiedDate": 1745684613000,
+      "sizeInBytes": 7854,
+      "frontmatter": {
+        "title": "2025-4-W17",
+        "date": "2025-04-26",
+        "updated": "2025-04-26",
+        "keywords": [
+          "Scriptable小组件",
+          "Obisidian插件"
+        ],
+        "featured": true,
+        "summary": "这篇文章记录了本周活动，倒腾的一些事，收房，去盒马吃吃吃等",
+        "tags": [
+          "周记"
+        ]
       }
     }
   }
