@@ -9,6 +9,18 @@ export function absoluteUrl(path: string) {
   return `${process.env.NEXT_PUBLIC_APP_URL}${path}`;
 }
 
+
+export function formateDate(date: string){
+  const [year, month, day] = new Date(date).toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric'
+  }).split('/');
+  return `${year}年${month}月${day}日`;
+}
+
+
+
 export function getFoilStaticStyle() {
   const randomSeed = {
     x: Math.random(),

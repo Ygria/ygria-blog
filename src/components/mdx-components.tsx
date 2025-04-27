@@ -1,73 +1,52 @@
 import * as React from "react"
-import Image from "next/image"
-import Link from "next/link"
+import { Image as FrameworkImage } from "./ui/framework"
+// import Link from "next/link"
 
 import { cn } from "@/lib/utils"
+import { Heading } from "./ui/heading"
+import  Link  from "./ui/link"
+import type {
+  AnchorHTMLAttributes,
+  FC,
+ 
+} from 'react';
+
+
+function Image(
+  props: React.ImgHTMLAttributes<HTMLImageElement> & {
+    sizes?: string;
+  },
+) {
+  return (
+    <FrameworkImage
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 70vw, 900px"
+      {...props}
+      src={props.src as unknown as string}
+      className={cn('rounded-lg', props.className)}
+    />
+  );
+}
 
 const components = {
-  h1: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h1
-      className={cn(
-        "font-heading mt-8 mb-8 scroll-m-20 text-[3.2rem] leading-[3.6rem] font-semibold tracking-tight",
-        className
-      )}
-      {...props}
-    />
+  h1: ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <Heading as="h1" {...props} />
   ),
-  h2: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h2
-      className={cn(
-        "font-heading mt-8 mb-8 scroll-m-20 text-[1.6rem] leading-[2.4rem] font-semibold tracking-tight",
-        className
-      )}
-      {...props}
-    />
+  h2: ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <Heading as="h2" {...props} />
   ),
-  h3: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h3
-      className={cn(
-        "font-heading mt-8 mb-8 scroll-m-20 text-[1.4rem] leading-[2.2rem] font-semibold tracking-tight",
-        className
-      )}
-      {...props}
-    />
+  h3:  ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <Heading as="h3" {...props} />
   ),
-  h4: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h4
-      className={cn(
-        "font-heading mt-8 mb-8 scroll-m-20 text-[1.2rem] leading-[2rem] font-semibold tracking-tight",
-        className
-      )}
-      {...props}
-    />
+  h4: ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <Heading as="h4" {...props} />
   ),
-  h5: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h5
-      className={cn(
-        "font-heading mt-8 mb-8 scroll-m-20 text-[1rem] leading-[1.8rem] font-semibold tracking-tight",
-        className
-      )}
-      {...props}
-    />
+  h5:  ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <Heading as="h5" {...props} />
   ),
-  h6: ({ className, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
-    <h6
-      className={cn(
-        "font-heading mt-8 mb-8 scroll-m-20 text-[0.8rem] leading-[1.6rem] font-semibold tracking-tight",
-        className
-      )}
-      {...props}
-    />
+  h6:  ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+    <Heading as="h6" {...props} />
   ),
-  a: ({ className, ...props }: React.HTMLAttributes<HTMLAnchorElement>) => (
-    <a
-      className={cn(
-        "font-medium text-black transition-all duration-300 ease-in-out underline underline-offset-3",
-        className
-      )}
-      {...props}
-    />
-  ),
+  a: Link as FC<AnchorHTMLAttributes<HTMLAnchorElement>>,
   p: ({ className, ...props }: React.HTMLAttributes<HTMLParagraphElement>) => (
     <p
       className={cn(
@@ -98,14 +77,7 @@ const components = {
       {...props}
     />
   ),
-  img: ({
-    className,
-    alt,
-    ...props
-  }: React.ImgHTMLAttributes<HTMLImageElement>) => (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img className={cn("max-w-full rounded-md", className)} alt={alt} {...props} />
-  ),
+  img: Image,
   hr: ({ ...props }: React.HTMLAttributes<HTMLHRElement>) => (
     <hr className="my-4 md:my-8" {...props} />
   ),
@@ -157,8 +129,8 @@ const components = {
   code: ({ className, ...props }: React.HTMLAttributes<HTMLElement>) => (
     <code
       className={cn(
-        "w-max-2xl rounded-[0.6rem] bg-[#ededeb] px-[0.3rem] py-[0.2rem]",
-        "font-mono text-[1.0rem] font-normal text-[#ed4759]",
+        "border border-solid border-gray-300 bg-gray-100 text-gray-800 rounded p-[3px] text-[13px] font-normal",
+        
         className
       )}
       {...props}
@@ -174,7 +146,7 @@ const components = {
   Link: ({ className, ...props }: React.ComponentProps<typeof Link>) => (
     <Link
       className={cn(
-        "font-medium text-blue-600 no-underline transition-all duration-300 ease-in-out hover:underline",
+        "font-medium text-blue-600  transition-all duration-300 ease-in-out hover:underline",
         className
       )}
       {...props}
