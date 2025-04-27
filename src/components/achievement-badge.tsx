@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useRef, useEffect, type CSSProperties, useCallback } from "react"
+import { useState, useRef, useEffect, type CSSProperties, useCallback ,} from "react"
 import { cn } from "@/lib/utils"
 
 type BadgeCategory = "music" | "culture" | "tech" | "hobby" | "learning" | "future"

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { config } from "@/lib/config";
-import { RootProvider } from "fumadocs-ui/provider";
+
 
 export const metadata: Metadata = {
   title: config.site.title,
@@ -85,7 +85,7 @@ export default function RootLayout({
       </head>
       <body className="min-w-md overflow-x-hidden">
         <Header />
-        <RootProvider>{children}</RootProvider>
+      {children}
       </body>
     </html>
   );

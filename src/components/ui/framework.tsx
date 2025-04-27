@@ -113,7 +113,7 @@ export function Image(props: ImageProps) {
 export function Link(props: LinkProps) {
   const { Link } = FrameworkContext.use();
   if (!Link) {
-    const { href, prefetch: _, ...rest } = props;
+    const { href,  ...rest } = props;
     return <a href={href} {...rest} />;
   }
 
