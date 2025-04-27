@@ -1,5 +1,20 @@
 [
   "templater-obsidian",
+  "novel-word-count",
+  "obsidian-list-callouts",
+  "callout-manager",
   "obsidian-image-auto-upload-plugin",
+  "obsidian-reveal-active-file",
+  "obsidian-stille",
+  "easy-typing-obsidian",
+  "obsidian-card-renderer",
+  "table-editor-obsidian",
+  "3d-graph",
+  "obsidian42-brat",
+  "note-to-mp",
+  "copilot",
+  "quickadd",
+  "obsidian-spaced-repetition",
+  "obsidian-textgenerator-plugin",
   "image-converter"
 ]

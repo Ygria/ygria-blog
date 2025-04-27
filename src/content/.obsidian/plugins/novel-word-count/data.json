@@ -585,19 +585,19 @@
       "isCountable": true,
       "isDirectory": false,
       "noteCount": 1,
-      "wordCount": 3559,
+      "wordCount": 3348,
       "wordCountTowardGoal": 0,
       "wordGoal": null,
-      "pageCount": 11.863333333333333,
-      "characterCount": 4196,
-      "nonWhitespaceCharacterCount": 4040,
-      "readingTimeInMinutes": 7.132188679245283,
+      "pageCount": 11.16,
+      "characterCount": 3867,
+      "nonWhitespaceCharacterCount": 3766,
+      "readingTimeInMinutes": 6.7119622641509435,
       "linkCount": 0,
       "embedCount": 0,
       "aliases": null,
       "createdDate": 1745765570000,
-      "modifiedDate": 1745766410000,
-      "sizeInBytes": 12397,
+      "modifiedDate": 1745771087000,
+      "sizeInBytes": 11562,
       "frontmatter": {
         "title": "《权力与人-思悼世子之死与朝鲜王室》读书及观影笔记",
         "date": "2024-07-03",
@@ -1214,6 +1214,33 @@
           "旅游"
         ],
         "author": "晨"
+      }
+    },
+    "未命名.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 3130,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 10.433333333333334,
+      "characterCount": 3637,
+      "nonWhitespaceCharacterCount": 3536,
+      "readingTimeInMinutes": 6.275962264150944,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1745767976000,
+      "modifiedDate": 1745767980000,
+      "sizeInBytes": 10647,
+      "frontmatter": {
+        "date": "2025-04-17",
+        "tags": null,
+        "description": null,
+        "title": null,
+        "keywords": null,
+        "featured": false,
+        "updated": "2025-04-17"
       }
     }
   }

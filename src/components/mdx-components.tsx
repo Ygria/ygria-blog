@@ -4,11 +4,12 @@ import { Image as FrameworkImage } from "./ui/framework"
 
 import { cn } from "@/lib/utils"
 import { Heading } from "./ui/heading"
-import  Link  from "./ui/link"
+import Link from "./ui/link"
+import { Callout,ObsidianCallout } from "./ui/callout"
 import type {
   AnchorHTMLAttributes,
   FC,
- 
+
 } from 'react';
 
 
@@ -28,22 +29,22 @@ function Image(
 }
 
 const components = {
-  h1: ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+  h1: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <Heading as="h1" {...props} />
   ),
-  h2: ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+  h2: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <Heading as="h2" {...props} />
   ),
-  h3:  ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+  h3: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <Heading as="h3" {...props} />
   ),
-  h4: ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+  h4: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <Heading as="h4" {...props} />
   ),
-  h5:  ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+  h5: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <Heading as="h5" {...props} />
   ),
-  h6:  ( props: React.HTMLAttributes<HTMLHeadingElement>) => (
+  h6: (props: React.HTMLAttributes<HTMLHeadingElement>) => (
     <Heading as="h6" {...props} />
   ),
   a: Link as FC<AnchorHTMLAttributes<HTMLAnchorElement>>,
@@ -68,15 +69,7 @@ const components = {
   li: ({ className, ...props }: React.HTMLAttributes<HTMLElement>) => (
     <li className={cn("mt-2 ml-4 text-[1.1rem] leading-[1.6em]", className)} {...props} />
   ),
-  blockquote: ({ className, ...props }: React.HTMLAttributes<HTMLElement>) => (
-    <blockquote
-      className={cn(
-        "my-6 border-l-[3px] border-[#343a40] pl-4",
-        className
-      )}
-      {...props}
-    />
-  ),
+  blockquote: ObsidianCallout as unknown as FC<React.ComponentProps<'blockquote'>>,
   img: Image,
   hr: ({ ...props }: React.HTMLAttributes<HTMLHRElement>) => (
     <hr className="my-4 md:my-8" {...props} />
@@ -130,7 +123,7 @@ const components = {
     <code
       className={cn(
         "border border-solid border-gray-300 bg-gray-100 text-gray-800 rounded p-[3px] text-[13px] font-normal",
-        
+
         className
       )}
       {...props}
@@ -161,6 +154,7 @@ const components = {
       {...props}
     />
   ),
+  Callout
 }
 
 export { components }
