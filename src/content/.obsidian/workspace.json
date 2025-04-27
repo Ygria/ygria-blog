@@ -191,6 +191,10 @@
   },
   "active": "34e8fa9abd406964",
   "lastOpenFiles": [
+    "blog/2025-4-W17.md",
+    "achievements/wangsulong-concert.md",
+    "achievements/eason-concert.md",
+    "achievements",
     "tech/黄山两日游.md",
     "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
     "tech/琅琊山一日游.md",
@@ -214,9 +218,6 @@
     "tech/Java设计模式.md",
     "tech/Java大文件解析优化.md",
     "tech/JavaScript ES6  使用展开运算符完成全平台校验重名逻辑封装.md",
-    "tech/Java 记录基于CAS登录模块的几个安全问题的解决.md",
-    "tech/Java 使用OpenFeign管理多个第三方服务调用.md",
-    "tech/Head First 深入浅出HTML CSS.md",
     "tech/CNAME",
     "tech",
     "新建文件夹",
@@ -236,7 +237,6 @@
     "assets",
     "Assets",
     "Templates",
-    "04 Note/音乐剧",
     "未命名.canvas",
     "Note/非虚构/未命名.canvas",
     "未命名 1.canvas"
