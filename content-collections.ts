@@ -1,5 +1,4 @@
 import { defineCollection, defineConfig } from "@content-collections/core";
-import { platform } from "os";
 
 const blogs = defineCollection({
   name: "blogs",
@@ -36,8 +35,7 @@ const games = defineCollection({
     platforms: z.array(z.string()).optional(),
     description: z.string().optional(),
     score: z.number().optional(),
-    playTime: z.string().optional()
-
+    playTime: z.string().optional(),
   }),
   transform: async (document) => {
     return {
