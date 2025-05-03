@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/power-and-man.md",
+                "file": "blog/chigua.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "power-and-man"
+              "title": "chigua"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "代已经过",
+                "query": "dialy",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -156,13 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/power-and-man.md",
+                "file": "blog/chigua.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "power-and-man 的大纲"
+              "title": "chigua 的大纲"
             }
           },
           {
@@ -215,14 +216,17 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "afe42639521a0123",
+  "active": "7e3b96666b667f22",
   "lastOpenFiles": [
-    "未命名.md",
-    "blog/power-and-man.md",
     "blog/css-foil.md",
+    "blog/chigua.md",
+    "blog/one-day-in-langya.md",
+    "tech/Vue+Element UI 树形控件整合下拉功能菜单（tree + dropdown +input）.md",
+    "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
+    "blog/power-and-man.md",
+    "未命名.md",
     "blog/2025-4-W17.md",
     "tech/黄山两日游.md",
-    "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
     "tech/琅琊山一日游.md",
     "tech/橘子说.md",
     "tech/微前端qiankun框架接入实战.md",
@@ -233,7 +237,6 @@
     "tech/vue-codemirror + Java Compiler实现Java Web IDE.md",
     "tech/Vue基础：子组件抽取与父子组件通信.md",
     "tech/Vue基础：使用Vue.extend()实现自定义确认框.md",
-    "tech/Vue+Element UI 树形控件整合下拉功能菜单（tree + dropdown +input）.md",
     "tech/Vue 自定义指令和动态路由实现权限控制.md",
     "tech/Vue 指令实现自动填充英文名功能.md",
     "tech/Vue + WebRTC 实现音视频直播（附自定义播放器样式).md",
@@ -241,8 +244,6 @@
     "tech/Obisidian图床配置记录.md",
     "tech/Java：自定义注解+反射实现导入导出Excel文档.md",
     "tech/Linux虚拟网络：Docker网络知识之基础篇.md",
-    "tech/Java设计模式.md",
-    "tech/Java大文件解析优化.md",
     "tech/CNAME",
     "tech",
     "image-11.webp",

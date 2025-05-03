@@ -9,7 +9,7 @@ import GamePoster from "./components/game-poster"
 export const metadata: Metadata = {
   title: `Games | ${config.site.title}`,
   description: `Game of ${config.site.title}`,
-  keywords: `${config.site.title}, games, ${config.site.title} games, ygria's dialy`,
+  keywords: `${config.site.title}, games, ${config.site.title} games, ygria's daily`,
 };
 
 export default function GamePage() {
