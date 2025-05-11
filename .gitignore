@@ -42,3 +42,5 @@ next-env.d.ts
 
 .content-collections
 /src/content/assets
+src/content/.obsidian/workspace.json
+/src/content/.obsidian

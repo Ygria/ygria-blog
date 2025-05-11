@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/chigua.md",
+                "file": "blog/2025-4-W19.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "chigua"
+              "title": "2025-4-W19"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dialy",
+                "query": "daily",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -88,12 +88,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 317.5
+    "width": 457.5
   },
   "right": {
     "id": "43f0c38d63d4a997",
@@ -157,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/chigua.md",
+                "file": "blog/2025-4-W19.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "chigua 的大纲"
+              "title": "2025-4-W19 的大纲"
             }
           },
           {
@@ -172,8 +171,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "插件不再活动"
             }
           },
           {
@@ -195,6 +194,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "quickadd:QuickAdd": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -203,11 +203,7 @@
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
       "callout-manager:Insert Callout": false,
-      "obsidian-weread-plugin:同步微信读书笔记": false,
       "obsidian-stille:Toggle Stille": false,
-      "obsidian-card-renderer:Open Mermaid Toolbar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "3d-graph:3D Graph": false,
       "obsidian42-brat:BRAT": false,
       "note-to-mp:复制到公众号": false,
       "copilot:Open Copilot Chat": false,
@@ -216,17 +212,23 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "7e3b96666b667f22",
+  "active": "afe42639521a0123",
   "lastOpenFiles": [
-    "blog/css-foil.md",
-    "blog/chigua.md",
+    "blog/2025-4-W17.md",
+    "blog/2025-4-W19.md",
+    "blog/2017-read-note.md",
+    "blog/all-you-need-is-a-google-account.md",
+    "blog/power-and-man.md",
     "blog/one-day-in-langya.md",
+    "blog/health-care-live.md",
+    "blog/chigua.md",
+    "blog/css-foil.md",
+    "blog/2017-movies-or-tv.md",
+    "tech/黄山两日游.md",
+    "blog/2025-4-W15.md",
     "tech/Vue+Element UI 树形控件整合下拉功能菜单（tree + dropdown +input）.md",
     "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
-    "blog/power-and-man.md",
     "未命名.md",
-    "blog/2025-4-W17.md",
-    "tech/黄山两日游.md",
     "tech/琅琊山一日游.md",
     "tech/橘子说.md",
     "tech/微前端qiankun框架接入实战.md",
@@ -238,12 +240,6 @@
     "tech/Vue基础：子组件抽取与父子组件通信.md",
     "tech/Vue基础：使用Vue.extend()实现自定义确认框.md",
     "tech/Vue 自定义指令和动态路由实现权限控制.md",
-    "tech/Vue 指令实现自动填充英文名功能.md",
-    "tech/Vue + WebRTC 实现音视频直播（附自定义播放器样式).md",
-    "tech/Vue +WebSocket + WaveSurferJS 实现H5聊天对话交互.md",
-    "tech/Obisidian图床配置记录.md",
-    "tech/Java：自定义注解+反射实现导入导出Excel文档.md",
-    "tech/Linux虚拟网络：Docker网络知识之基础篇.md",
     "tech/CNAME",
     "tech",
     "image-11.webp",
