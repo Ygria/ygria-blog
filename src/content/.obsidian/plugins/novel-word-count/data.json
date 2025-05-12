@@ -1049,33 +1049,6 @@
         ]
       }
     },
-    "tech/2017年观影剧杂记.md": {
-      "isCountable": true,
-      "isDirectory": false,
-      "noteCount": 1,
-      "wordCount": 1123,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 3.743333333333333,
-      "characterCount": 1337,
-      "nonWhitespaceCharacterCount": 1265,
-      "readingTimeInMinutes": 2.2495471698113207,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1745736664919,
-      "modifiedDate": 1745736666098,
-      "sizeInBytes": 4037,
-      "frontmatter": {
-        "title": "2017年观影/剧杂记",
-        "date": "2017-08-23",
-        "tags": [
-          "电视剧",
-          "电影"
-        ],
-        "description": "《豪斯医生》《银翼杀手2049》观后感"
-      }
-    },
     "game/balatro.md": {
       "isCountable": true,
       "isDirectory": false,
@@ -1534,6 +1507,69 @@
         "keywords": null,
         "featured": false,
         "updated": "2025-04-17"
+      }
+    },
+    "blog/2017-movies-or-tv.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1152,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.84,
+      "characterCount": 1431,
+      "nonWhitespaceCharacterCount": 1348,
+      "readingTimeInMinutes": 2.3199622641509436,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1747040273515,
+      "modifiedDate": 1747040273515,
+      "sizeInBytes": 3979
+    },
+    "blog/2025-4-W19.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 785,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 2.6166666666666667,
+      "characterCount": 1118,
+      "nonWhitespaceCharacterCount": 1003,
+      "readingTimeInMinutes": 1.6090188679245283,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1747040273521,
+      "modifiedDate": 1747040273521,
+      "sizeInBytes": 2844
+    },
+    "blog/all-you-need-is-a-google-account.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 347,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 1.1566666666666667,
+      "characterCount": 432,
+      "nonWhitespaceCharacterCount": 403,
+      "readingTimeInMinutes": 0.7081886792452831,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1747040273526,
+      "modifiedDate": 1747040274190,
+      "sizeInBytes": 1324,
+      "frontmatter": {
+        "date": "2025-05-05",
+        "tags": null,
+        "description": null,
+        "title": "一个谷歌账号可以畅游",
+        "keywords": null,
+        "featured": false,
+        "updated": "2025-05-05"
       }
     }
   }

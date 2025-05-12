@@ -1,8 +1,8 @@
 export const config = {
   site: {
-    title: "Ygria‘s Dialy",
-    name: "Ygria‘s Dialy",
-    description: "Ygria‘s Dialy",
+    title: "Ygria‘s Daily",
+    name: "Ygria‘s Daily",
+    description: "Ygria‘s Daily",
     keywords: ["Life", "AI", "Full Stack Developer"],
     url: "https://xxx.com",
     baseUrl: "https://xxx.com",
@@ -15,8 +15,8 @@ export const config = {
     },
     manifest: "/site.webmanifest",
     rss: {
-      title: "Ygria‘s Dialy",
-      description: "Ygria‘s Dialy",
+      title: "Ygria‘s Daily",
+      description: "Ygria‘s Daily",
       feedLinks: {
         rss2: "/rss.xml",
         json: "/feed.json",
