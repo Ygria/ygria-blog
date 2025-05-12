@@ -42,3 +42,4 @@ next-env.d.ts
 
 .content-collections
 /src/content/assets
+src/content/.obsidian/plugins/novel-word-count/data.json
