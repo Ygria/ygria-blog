@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2025-4-W19.md",
+                "file": "blog/2025-4-W15.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-4-W19"
+              "title": "2025-4-W15"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "daily",
+                "query": "代已经过",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": false,
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 317.5
   },
   "right": {
     "id": "43f0c38d63d4a997",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2025-4-W19.md",
+                "file": "blog/2017-read-note.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-4-W19 的大纲"
+              "title": "2017-read-note 的大纲"
             }
           },
           {
@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -214,21 +214,23 @@
   },
   "active": "afe42639521a0123",
   "lastOpenFiles": [
-    "blog/2025-4-W17.md",
-    "blog/2025-4-W19.md",
-    "blog/2017-read-note.md",
     "blog/all-you-need-is-a-google-account.md",
-    "blog/power-and-man.md",
-    "blog/one-day-in-langya.md",
-    "blog/health-care-live.md",
-    "blog/chigua.md",
-    "blog/css-foil.md",
+    "blog/2025-4-W19.md",
     "blog/2017-movies-or-tv.md",
-    "tech/黄山两日游.md",
+    "blog/2017-read-note.md",
+    "blog/chigua.md",
+    "blog/health-care-live.md",
+    "blog/2025-4-W17.md",
     "blog/2025-4-W15.md",
-    "tech/Vue+Element UI 树形控件整合下拉功能菜单（tree + dropdown +input）.md",
-    "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
+    "blog/css-foil.md",
+    "game/dontstarve.md",
+    "game/game-of-sultans.md",
+    "game/balatro.md",
+    "event/create-wx-subscription.md",
+    "blog/power-and-man.md",
     "未命名.md",
+    "tech/黄山两日游.md",
+    "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
     "tech/琅琊山一日游.md",
     "tech/橘子说.md",
     "tech/微前端qiankun框架接入实战.md",
@@ -238,8 +240,6 @@
     "tech/书法练习记录.md",
     "tech/vue-codemirror + Java Compiler实现Java Web IDE.md",
     "tech/Vue基础：子组件抽取与父子组件通信.md",
-    "tech/Vue基础：使用Vue.extend()实现自定义确认框.md",
-    "tech/Vue 自定义指令和动态路由实现权限控制.md",
     "tech/CNAME",
     "tech",
     "image-11.webp",
