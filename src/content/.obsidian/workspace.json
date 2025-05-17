@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "blog/2025-4-W20.md",
+                "file": "blog/power-and-man.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-4-W20"
+              "title": "power-and-man"
             }
           }
         ],
@@ -171,13 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "blog/2025-4-W20.md",
+                "file": "blog/power-and-man.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "2025-4-W20 的大纲"
+              "title": "power-and-man 的大纲"
             }
           },
           {
@@ -229,25 +229,25 @@
   },
   "active": "bf4c11f3a4ae5671",
   "lastOpenFiles": [
-    "blog/all-you-need-is-a-google-account.md",
+    "blog/one-day-in-langya.md",
+    "blog/health-care-live.md",
+    "blog/css-foil.md",
     "blog/2025-4-W20.md",
     "blog/2025-4-W19.md",
     "blog/2025-4-W17.md",
+    "blog/2025-4-W15.md",
+    "blog/2017-read-note.md",
+    "blog/2017-movies-or-tv.md",
+    "blog/all-you-need-is-a-google-account.md",
     "image-3.webp",
     "image-2.webp",
     "image-1.webp",
     "image.webp",
-    "blog/2017-movies-or-tv.md",
     "未命名 1.md",
     "未命名.md",
-    "blog/2017-read-note.md",
     "blog/power-and-man.md",
-    "blog/one-day-in-langya.md",
-    "blog/health-care-live.md",
     "blog/chigua.md",
-    "blog/css-foil.md",
     "tech/黄山两日游.md",
-    "blog/2025-4-W15.md",
     "tech/Vue+Element UI 树形控件整合下拉功能菜单（tree + dropdown +input）.md",
     "tech/详解Next Auth：自定义邮箱密码登录注册、Github、Notion授权 & Convex集成.md",
     "tech/琅琊山一日游.md",
