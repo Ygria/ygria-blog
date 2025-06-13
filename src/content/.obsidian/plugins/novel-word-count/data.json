@@ -1693,6 +1693,36 @@
         "title": "汪苏泷演唱会",
         "type": "music"
       }
+    },
+    "blog/2025-4-W20.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 1123,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 3.743333333333333,
+      "characterCount": 1993,
+      "nonWhitespaceCharacterCount": 1811,
+      "readingTimeInMinutes": 2.2938867924528306,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1749808035468,
+      "modifiedDate": 1749808035921,
+      "sizeInBytes": 4684,
+      "frontmatter": {
+        "date": "2025-05-17",
+        "tags": null,
+        "summary": "这篇文章记录了本周活动，剪辑投稿视频（PixelmatorPro），下厨、辛苦锻炼的一周～",
+        "title": "2025-4-W20",
+        "keywords": [
+          "健身",
+          "饮食"
+        ],
+        "featured": true,
+        "updated": "2025-05-17"
+      }
     }
   }
 }
