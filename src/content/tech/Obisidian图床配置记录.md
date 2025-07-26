@@ -43,3 +43,8 @@ token：上一步中的②
 下载后无需配置，打开插件。  
 ## 4.使用  
 使用起来很简单，直接向obsidian中粘贴文件，会自动上传到图床，并插入图片链接。
+
+```typescript
+
+Given the following query from the user, ask several follow up questions to clarify the research direction.Return a maximum of ${numQuestions} questions. Feel free to return less if the original query is clear, but always provide at least 1 question.<query>${query}</query>
+```
