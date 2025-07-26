@@ -1707,6 +1707,33 @@
         "title": "汪苏泷演唱会",
         "type": "music"
       }
+    },
+    "blog/2025-7-W30.md": {
+      "isCountable": true,
+      "isDirectory": false,
+      "noteCount": 1,
+      "wordCount": 85,
+      "wordCountTowardGoal": 0,
+      "wordGoal": null,
+      "pageCount": 0.2833333333333333,
+      "characterCount": 103,
+      "nonWhitespaceCharacterCount": 98,
+      "readingTimeInMinutes": 0.17,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": null,
+      "createdDate": 1753515279517,
+      "modifiedDate": 1753520056734,
+      "sizeInBytes": 494,
+      "frontmatter": {
+        "date": "2025-07-26",
+        "tags": null,
+        "summary": "准备下个月去旅游啦。私教课结束！椭圆机买了，长焦镜头也买了。",
+        "title": "2025-7-W30",
+        "keywords": null,
+        "featured": true,
+        "updated": "2025-07-26"
+      }
     }
   }
 }
