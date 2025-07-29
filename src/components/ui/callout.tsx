@@ -17,6 +17,8 @@ import {
   type ReactNode,
 } from "react";
 
+import type { ReactElement } from "react";
+
 const typeIconMap: Record<CalloutType, ReactNode> = {
   info: <Info className="size-5 fill-blue-500 text-white mt-[4px]" />,
   warn: (
@@ -120,7 +122,8 @@ function childrenToString(children: ReactNode): string {
       .join("");
   }
   if (isValidElement(children)) {
-    return childrenToString(child.props.children);
+    const element = children as ReactElement<any>;
+    return childrenToString(element.props.children);
   }
   return "";
 }
@@ -173,35 +176,25 @@ const defaultTitleMap: Record<CalloutType, string> = {
 
 export const ObsidianCallout = forwardRef<
   HTMLDivElement,
-  HTMLAttributes<HTMLQuoteElement>
+  HTMLAttributes<HTMLDivElement>
 >(({ children, ...props }, ref) => {
   const childArray = Children.toArray(children);
   console.log("ObsidianCallout children:", childArray);
 
-  const filteredChildren = childArray.filter((child) => {
+  const filteredChildren = childArray.filter((child): child is ReactElement  => {
     return !(typeof child === "string" && child.trim().length === 0);
   });
 
   const firstParagraph = filteredChildren.find((child) => {
     if (!isValidElement(child)) return false;
 
-    const text = childrenToString(child.props.children);
+    const element = child as ReactElement<any>;
+    const text = childrenToString(element.props.children);
     return /^\[!(\w+)\]/.test(text.trim());
   });
 
-  debugger;
-  //   const firstParagraph = childArray.find((child) => {
-  //     debugger;
-  //     console.log("Checking child:", typeof child, child);
-  //     if (!isValidElement(child)) return false;
-  //     if (typeof child.type !== "string") return false;
-  //     if (child.type !== "p") return false;
 
-  //     console.log("Checked First :", child);
-  //     return true;
-  //   });
 
-  debugger;
   console.log("Obisidian first paragraph:", firstParagraph);
 
   if (!firstParagraph) {
@@ -211,8 +204,9 @@ export const ObsidianCallout = forwardRef<
       </Callout>
     );
   }
+  const firstElement = firstParagraph as ReactElement<any>;
 
-  const fullText = childrenToString(firstParagraph.props.children).trim();
+  const fullText = childrenToString(firstElement.props.children).trim();
   const [firstLine, ...restLines] = fullText.split(/\r?\n/);
 
   const result = parseObsidianCalloutLine(firstLine);
