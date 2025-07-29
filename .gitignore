@@ -41,13 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 .content-collections
-/src/content/assets
-src/content/.obsidian/workspace.json
-/src/content/.obsidian
-src/content/.obsidian/plugins/novel-word-count/data.json
-/src/content/.obsidian
-src/content/.obsidian/workspace.json
-/src/content/.obsidian
-/src/content/.obsidian
-src/content/.obsidian/workspace.json
-src/content/.obsidian/plugins/novel-word-count/data.json
+/src/content/assets/
+/src/content/.obsidian/
