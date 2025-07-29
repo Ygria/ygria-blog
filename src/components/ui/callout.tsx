@@ -2,7 +2,7 @@ import { cn } from "@/lib/utils";
 import { cva } from "class-variance-authority";
 import {
   Check,
-  CircleX,
+
   Flame,
   Info,
   Quote,
