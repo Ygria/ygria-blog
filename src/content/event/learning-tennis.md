@@ -1,9 +1,11 @@
 ---
 title: 学网球
 description: 学网球
-startDate: 2025-02-20
-endDate: 2025-07-30
-type: range
+dates:
+  - 2025-07-30
+  - 2025-07-12
+  - 2025-02-12
+type: interval
 impact: 3
 category: personal
 ---

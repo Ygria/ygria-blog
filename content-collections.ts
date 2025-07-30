@@ -51,12 +51,13 @@ const events = defineCollection({
   include: "**/*.md",
   schema: (z) => ({
     title: z.string(),
-    startDate: z.string(),
+    startDate: z.string().optional().nullable(),
     endDate: z.string().optional().nullable(),
     description: z.string().optional(),
     category: z.string(),
     type: z.string(),
     impact: z.string().or(z.number()),
+    dates: z.array(z.string()).optional().nullable(),
   }),
   transform: async (document) => {
     return {
