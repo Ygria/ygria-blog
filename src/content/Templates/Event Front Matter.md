@@ -1,7 +1,9 @@
 ---
-startDate: 2025-04-17
-endDate: 
+title: <% tp.file.title %>
 description: 
-title: 
-type: global
+startDate: <% tp.date.now("YYYY-MM-DD") %>
+endDate: 
+type: point
+impact: 1
+category: personal
 ---

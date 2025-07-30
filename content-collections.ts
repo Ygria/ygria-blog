@@ -45,6 +45,27 @@ const games = defineCollection({
   },
 });
 
+const events = defineCollection({
+  name: "events",
+  directory: "src/content/event",
+  include: "**/*.md",
+  schema: (z) => ({
+    title: z.string(),
+    startDate: z.string(),
+    endDate: z.string().optional().nullable(),
+    description: z.string().optional(),
+    category: z.string(),
+    type: z.string(),
+    impact: z.string().or(z.number()),
+  }),
+  transform: async (document) => {
+    return {
+      ...document,
+      slug: `${document._meta.path}`,
+    };
+  },
+});
+
 export default defineConfig({
-  collections: [blogs, games],
+  collections: [blogs, games, events],
 });

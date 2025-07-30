@@ -1,9 +1,10 @@
 ---
+title: 开通微信公众号
 startDate: 2025-04-17
 endDate: 
-description: 
-title: 
-type: global
-date:
+description: 开通微信公众号，用来放读书笔记。
+category: personal
+type: point
+impact: "1"
 ---
-开通微信公众号，放读书笔记。
+开通微信公众号，用来放读书笔记。
